@@ -1,0 +1,54 @@
+.profile-head  {
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+
+.profile-head > h1 {
+    font-weight: bold;
+    
+    
+}
+.info-group{
+    
+    margin-top: 30px;
+}
+.info-group > h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.info-group > h5{
+    display: inline-block;
+    text-transform:capitalize;
+    font-size: 25px;
+    
+}
+.social-link{
+    margin-top: 50px;
+    border-top: 1px solid black;
+    padding-top: 25px;
+    text-align: center;
+}
+.social-link > ul,.subscribe{
+    list-style: none;
+}
+.social-link > ul >li,.subscribe > li{
+    display: inline-block;
+    
+}
+
+.social-link > ul >li > a,.subscribe > li>a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+}
+.subscribe{
+    margin-top: 10px;
+     
+}
+.subscribe > li>a{
+    padding: 10px;
+}
