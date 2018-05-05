@@ -1,31 +1,28 @@
-<?php include('ui.php'); ?> 
+<?php include('login.php'); ?> 
+
 <!DOCTYPE html>
 <html> 
 <head> 
-        
-
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
     <title>UNITAS REAL ESTATE COMPANY</title> 
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
    
-
-    <!-- //for-mobile-apps -->
+<!-- //for-mobile-apps -->
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 
-
 <!-- font-awesome icons -->
 <link rel="stylesheet" href="../css/font-awesome.min.css" />
+
 <!-- //font-awesome icons -->
 <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" property="" />
 <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round&subset=hebrew" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
    
    
     <!--///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -34,18 +31,13 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
     <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
-    
-    
+        
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-
-   
    
     <style>
         
         #nav-text{
-            position: absolute;
-            
-           
+            position: absolute;   
         }
 		body {
 			margin: 0;
@@ -66,8 +58,7 @@
 		}
 		.fluid_container {
 			margin: 0 auto;
-			width: 100%;
-			
+			width: 100%;			
 		}
 	</style>
 
@@ -77,106 +68,83 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
      
-       
-   
 	<link rel="stylesheet" href="../css/Font%20page.css" type="text/css">
- 
 
- 
 </head>
 <body>
-    
-    
-	<div class="fluid_container">
-    	
-       
-       
+   
+	<div class="fluid_container">    
         <div class="camera_wrap camera_azure_skin" id="slider">
-           
-          
-            <div data-thumb="../images/slides/thumbs/1.jpg" data-src="../images/slides/1.jpg" >
+         <div data-thumb="../images/slides/thumbs/1.jpg" data-src="../images/slides/1.jpg" >
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
-                    <button class="btn btn-danger">view</button>
+                    <br>                    
+                   <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/2.jpg" data-src="../images/slides/2.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                   
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/3.jpg" data-src="../images/slides/3.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                    
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/4.jpg" data-src="../images/slides/4.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                    
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/5.jpg" data-src="../images/slides/5.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                    
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/7.jpg" data-src="../images/slides/7.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                   
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/9.jpg" data-src="../images/slides/9.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                    
                     <button class="btn btn-danger">view</button>
                 </div>
             </div>
             <div data-thumb="../images/slides/thumbs/10.jpg" data-src="../images/slides/10.jpg">
                 <div class="information">
                     Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
-                    <br>
-                    
+                    <br>                   
                     <button class="btn btn-danger">view</button>
                 </div>
-            </div>
-            
-           
+            </div>                     
         </div>
         
     </div><!-- .fluid_container -->
-    
    
     <!--Login Popup-->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
-
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 class="modal-title" id="myModalLabel">Log in</h4>
 			</div> <!-- /.modal-header -->
-          <form  action="ui.php" method="get">
-			<div class="modal-body">
-				
+          <form  action="login.php" method="get">
+			<div class="modal-body">		
 					<div class="form-group">
 						<div class="input-group">
 							<input type="text" class="form-control" id="uLogin" placeholder="Login" name="id">
@@ -196,13 +164,8 @@
 							<input type="checkbox"> Remember me
 						</label>
 					</div> <!-- /.checkbox -->
-				
-
 			 <!-- /.modal-body -->
-
-			
-				<button  class="btn btn-primary">Ok</button>
-
+			<button  class="btn btn-primary" name = "ok" >Ok</button>
 				<div class="progress">
 					<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
 						<span class="sr-only">progress</span>
@@ -229,22 +192,19 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
 					<nav class="cl-effect-13" id="cl-effect-13">
 						<ul class="nav navbar-nav nav-font" >
 							<li class="active"><a  href="Front%20page.html">Home</a></li>
-							<li><a href="#aboutUs" >about us</a></li>
-							
+							<li><a href="#aboutUs" >about us</a></li>							
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" >properties <b class="caret"></b></a>
 								<ul class="dropdown-menu agile_short_dropdown">
 									<li><a href="#properties">LAND</a></li>
 									<li><a  data-toggle="tab"href="#residential">Residential</a></li>
-									<li><a data-toggle="tab"href="#commercial">Commercial</a></li>
-									
+									<li><a data-toggle="tab"href="#commercial">Commercial</a></li>									
 								</ul>
 							</li>
 							<li><a href="#team"  >team</a></li>
@@ -252,23 +212,12 @@
 							<li><a href="#contactUs" >Contact</a></li>
 							<li><button class="btn btn-primary" id="login" data-toggle="modal" data-target="#myModal">Login</button></li>
 						</ul>
-						
-						
-						
-                
-                  
 					</nav>
 				</div>
-			</nav>
-           
-            </div>
-            
-            
-        </div>
-         
-        </div>
-       
-        
+			</nav>          
+            </div>                        
+        </div>         
+        </div>        
         <!--Search-->
         <div class="container" style="position: absolute; margin-top: 35% ">
             <div class="row">
@@ -347,19 +296,18 @@
         
         
    <!--About Us -->
-   <div class="fluid-container" style="background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg')">
-    <div class="container" style="margin-bottom: 120px ; "  >
+    <div class="container" style="margin-bottom: 120px ;"  >
         <div class="row" >
             <div class="col-md-12 text-center text-capitalize">
                 <h1 id="aboutUs">about us</h1>
                 <div style="border-bottom:1px solid black;"></div>
             </div>
             
-            <div class="col-md-12" style="margin: 15px 0px; ">
-                <h4>Unitas real estate Ltd. is a development based system.
+            <div class="col-md-12" style="margin: 15px 0px;">
+                <p>Unitas real estate Ltd. is a development based system.
                 This website is made for providing superior customer service and an unwavering dedication to the satisfaction of customers ,Proactively seeking to improve quality. 
 
-</h4>
+</p>
             </div>
             
             <div class="col-md-4"></div>
@@ -376,7 +324,7 @@
                 <ul class="journey">
                     <li class="col-md-12 distance-line" >
                     <div class="col-md-4"></div>
-                    <div class="col-md-4 text-center journey-time">2017 to 2018</div>
+                    <div class="col-md-4 journey-time">2017 to 2018</div>
                     <div class="col-md-4"></div>
                     
                     
@@ -545,7 +493,7 @@
                 <h2>Achivements</h2>
             </div>
             <div class="col-md-5 " >
-               <div class="card" style="overflow-y: hidden">
+               <div class="card">
                    <img src="https://s.iha.com/5531900001784/Short-term-rentals-Surry-hills-The-Chic-Crown-apartment_1.jpeg" class="img-fluid" alt="" >
                    <div class="card-img-overlay news" ></div>
                    <div class="newsline">
@@ -560,7 +508,7 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-5 " >
-               <div class="card" >
+               <div class="card">
                    <img src="https://s.iha.com/5531900001784/Short-term-rentals-Surry-hills-The-Chic-Crown-apartment_1.jpeg" class="img-fluid" alt="" >
                    <div class="card-img-overlay news" ></div>
                    <div class="newsline">
@@ -618,19 +566,18 @@
   <!-- Nav tabs -->
   <ul class="nav nav-tabs " role="tablist" >
     <li class="nav-item">
-      <a id="land-nav"class="nav-link active" data-toggle="tab" href="#land-item">Land</a>
+      <a class="nav-link active" data-toggle="tab" href="#land">Land</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#residential-item" id="residential-nav">Residential</a>
+      <a class="nav-link" data-toggle="tab" href="#residential" id="residential-nav">Residential</a>
     </li>
     <li class="nav-item">
-      <a id="commercial-nav" class="nav-link" data-toggle="tab" href="#commercial-item">Commercial</a>
+      <a class="nav-link" data-toggle="tab" href="#commercial">Commercial</a>
     </li>
   </ul>
   <div class="tab-content ">
-    <div id="land-item" class="container tab-pane active tab-con" ><br>
+    <div id="land" class="container tab-pane active tab-con" ><br>
       <h2>Land</h2>
-      <div class="container over-hide card-change" id="land">
        <div class="col-md-3">
                   <div class="card">
                       <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
@@ -680,164 +627,9 @@
                    
                     </div>
                </div>
-               
-               <div id="land-over">
-                   <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-                  <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               </div>
-               </div>
-               <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                   <a id="land-more" class=" text-capitalize">see more</a>
-               </div>
     </div>
-    <div id="residential-item" class="container tab-pane fade tab-con"><br>
+    <div id="residential" class="container tab-pane fade tab-con"><br>
       <h2>Residential</h2>
-      <div id="residential" class="container card-change over-hide">
        <div class="col-md-3">
                   <div class="card">
                       <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
@@ -886,164 +678,10 @@
                       </div>                      
                    
                     </div>
-               </div>
-               <div id="residential-over">
-                   <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-                  <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               </div>
-               </div>
-               <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                   <a id="residential-more" class=" text-capitalize">see more</a>
                </div>
     </div>
-    <div id="commercial-item" class="container tab-pane fade tab-con"><br>
+    <div id="commercial" class="container tab-pane fade tab-con"><br>
       <h2>Commercial</h2>
-      <div class="container over-hide card-change" id="commercial">
        <div class="col-md-3">
                   <div class="card">
                       <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
@@ -1092,159 +730,6 @@
                       </div>                      
                    
                     </div>
-               </div>
-               <div id="commercial-over">
-                   <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-                  <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3 " >
-                 <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div> <div class="col-md-3">
-                  <div class="card">
-                      <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                 
-                   
-                   <div class="card-img-overlay  gallary"></div>
-                      <div class="gallary-info">
-                           <h3>lorem</h3>
-                       <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nostrum. Assumenda, sapiente! Quisquam </h5>
-                      </div>                      
-                   
-                    </div>
-               </div>
-               </div>
-               </div>
-               <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                   <a id="commercial-more" class=" text-capitalize">see more</a>
                </div>
     </div>
   </div>
@@ -1435,7 +920,7 @@
             <div class="col-md-2"></div>
         </div>
     </div>
-    </div>
+    
     
    
   
@@ -1542,89 +1027,12 @@
             $("#aboutSeeMore").html('See More');
             $aboutMore = 1;
         }
-    });
+    })
         
     
-    $("#land-over").hide();
-         $landMore = 1;
-    $("#land-more").click(function(){
-        
-        
-        if($landMore == 1)
-        {
-            $("#land-more").html('Hide More');
-            $("#land").css({'height':'1000px','overflow':'auto'});
-            $landMore= 0;
-            $("#land-over").fadeIn(1000);
-        }
-        else{
-            $("#land-more").html('See More');
-            $landMore = 1;
-            $("#land").css({'height':'auto','overflow':'hidden'});
-            $("#land-over").fadeOut(1000);
-        }
-    });
-        
+    
 
-    $("#residential-over").hide();
-         $residentialMore = 1;
-    $("#residential-more").click(function(){
-        
-        
-        if($residentialMore == 1)
-        {
-            $("#residential-more").html('Hide More');
-            $("#residential").css({'height':'1000px','overflow':'auto'});
-            $residentialMore= 0;
-            $("#residential-over").fadeIn(1000);
-        }
-        else{
-            $("#residential-more").html('See More');
-            $residentialMore = 1;
-            $("#residential").css({'height':'auto','overflow':'hidden'});
-            $("#residential-over").fadeOut(1000);
-        }
-    });
-         
-         $("#commercial-over").hide();
-         $commercialMore = 1;
-    $("#commercial-more").click(function(){
-        
-      
-        if($commercialMore == 1)
-        {
-            $("#commercial-more").html('Hide More');
-            $("#commercial").css({'height':'1000px','overflow':'auto'});
-            $commercialMore= 0;
-            $("#commercial-over").fadeIn(1000);
-        }
-        else{
-            $("#commercial-more").html('See More');
-            $commercialMore = 1;
-            $("#commercial").css({'height':'auto','overflow':'hidden'});
-            $("#commercial-over").fadeOut(1000);
-        }
-    });
-         
-    $("#land-nav").click(function(){
-        $("#land-more").html('See More');
-            $landMore = 1;
-            $("#land").css({'height':'auto','overflow':'hidden'});
-            $("#land-over").fadeOut();
-    });
-    $("#residential-nav").click(function(){
-        $("#residential-more").html('See More');
-            $residentialMore = 1;
-            $("#residential").css({'height':'auto','overflow':'hidden'});
-            $("#residential-over").fadeOut();
-    });
-         
-    $("#commercial-nav").click(function(){
-        $("#commercial-more").html('See More');
-            $commercialMore = 1;
-            $("#commercial").css({'height':'auto','overflow':'hidden'});
-            $("#commercial-over").fadeOut();
-    })
+
   
  
     

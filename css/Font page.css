@@ -121,7 +121,7 @@
     transition: 1s;
 }
 .gallary-info h5{
-    visibility: hidden;
+    
     margin-left: 10px;
     transition: .1s;
 }
@@ -219,7 +219,9 @@
     
 }
 
-
+.card{
+    overflow-y: hidden;
+}
 
 
 
@@ -376,5 +378,12 @@
     transition: .5s;
 }
 
-
+.card-change .card{
+    margin-top:50px;
+}
+.over-hide{
+    overflow: hidden;
+   
+    
+}
 
