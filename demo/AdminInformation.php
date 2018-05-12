@@ -1,10 +1,10 @@
-<?php include('login.php'); ?>
+<?php include('connection.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Account Information</title>
+        <title>Admin Account Information</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <!-- //for-mobile-apps -->
@@ -76,7 +76,7 @@
                                     <h3>name:</h3>
                                     <h5 class="panel-title">
                                         <?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -88,7 +88,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>User Id:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -98,12 +98,19 @@
                                 </div>
                                 <div class=" col-md-12 info-group">
                                     <h3>Designation: </h3>
-                                    <h5>&nbsp;&nbsp;ADMIN</h5>
+                                    <h5><?php
+                                        $s = $db->query("SELECT * FROM admin_account ");
+                                        $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
+                                        $count1 = mysqli_num_rows($s);
+                                        if ($count1 == 1) {
+                                            echo "&nbsp&nbsp" . $row1['designation'];
+                                        }
+                                        ?></h5>
                                 </div>
                                 <div class=" col-md-12 info-group">
                                     <h3>Mail Address:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -114,7 +121,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>Phone Number:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -125,7 +132,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>Date of birth:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -136,7 +143,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>Blood Group:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -147,7 +154,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>Address:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -158,7 +165,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>religion:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -169,7 +176,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>National Id:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {
@@ -180,7 +187,7 @@
                                 <div class=" col-md-12 info-group">
                                     <h3>Passport no:</h3>
                                     <h5><?php
-                                        $s = $db->query("SELECT * FROM user_account ");
+                                        $s = $db->query("SELECT * FROM admin_account ");
                                         $row1 = mysqli_fetch_array($s, MYSQLI_ASSOC);
                                         $count1 = mysqli_num_rows($s);
                                         if ($count1 == 1) {

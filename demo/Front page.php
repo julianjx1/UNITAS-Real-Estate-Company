@@ -1,4 +1,4 @@
-<?php include('login.php'); ?> 
+ <?php include('login.php');?> 
 <!DOCTYPE html>
 <html> 
     <head> 
@@ -7,11 +7,14 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
 
         <!-- //for-mobile-apps -->
         <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 
         <!-- font-awesome icons -->
         <link rel="stylesheet" href="../css/font-awesome.min.css" />
@@ -22,6 +25,7 @@
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 
+
         <!--///////////////////////////////////////////////////////////////////////////////////////////////////
         //
         //		Styles
@@ -29,7 +33,10 @@
         ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
         <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
 
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+
+
 
         <style>
 
@@ -69,7 +76,8 @@
     </head>
     <body>
 
-        <div class="fluid_container" >
+
+        <div class="fluid_container">
             <div class="camera_wrap camera_azure_skin" id="slider">
                 <div data-thumb="../images/slides/thumbs/1.jpg" data-src="../images/slides/1.jpg" >
                     <div class="information">
@@ -77,7 +85,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -87,7 +95,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -97,7 +105,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -107,7 +115,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -117,7 +125,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -127,7 +135,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -137,7 +145,7 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
@@ -147,13 +155,17 @@
                         <br>
                         <div class = "row" align = "center">
                             <button class="btn btn-primary">view</button>
-                            <button class="btn btn-primary">edit</button>
+
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
 
         </div><!-- .fluid_container -->
+
 
         <!--Login Popup-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
@@ -164,7 +176,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         <h4 class="modal-title" id="myModalLabel">Log in</h4>
                     </div> <!-- /.modal-header -->
-                    <form  action="ui.php" method="get">
+                    <form  action="login.php" method="get">
+                       
                         <div class="modal-body">
 
                             <div class="form-group">
@@ -180,22 +193,25 @@
                                     <label for="uPassword" class="input-group-addon "><i class="fas fa-lock"></i></label>
                                 </div> <!-- /.input-group -->
                             </div> <!-- /.form-group -->
-                            <form>
-                                <label class="radio-inline">
-                                    <input type="radio" name="optradio"><b>BUYER</b>
-                                </label>
-                                <span style="margin-left: 7em;"></span>
-                                <label class="radio-inline">
-                                    <input type="radio" name="optradio"><b>ADMIN</b>
-                                </label>
-                            </form>
+
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" value="1"><b>BUYER</b>
+                            </label>
+                            <span style="margin-left: 7em;"></span>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" value="2"><b>ADMIN</b>
+                            </label>
+
+
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox"> Remember me
                                 </label>
                             </div> <!-- /.checkbox -->
 
+
                             <!-- /.modal-body -->
+
 
                             <button  class="btn btn-primary">Ok</button>
 
@@ -215,6 +231,7 @@
                 <div class="col-md-3 " style="padding:15px 0px 0px 50px; position: absolute;">
                     <h1 id="logo"><a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
                 </div>
+
                 <div class="col-md-8" style="position:absolute;margin-left: 20%;"  >
                     <nav class="navbar navbar-default " id="nav">
                         <div class="navbar-header navbar-left">
@@ -224,6 +241,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
+
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
@@ -238,6 +256,7 @@
                                             <li><a href="#properties">Land</a></li>
                                             <li><a  data-toggle="tab"href="#residential">Residential</a></li>
                                             <li><a data-toggle="tab"href="#commercial">Commercial</a></li>
+
                                         </ul>
                                     </li>
                                     <li><a href="#team"  >team</a></li>
@@ -248,28 +267,40 @@
                             </nav>
                         </div>
                     </nav>
+
                 </div>
+
+
             </div>
+
         </div>
+
 
         <!--Search-->
         <div class="container" style="position: absolute; margin-top: 35% ">
             <div class="row">
+
                 <div >
                     <form action="#" class="col-md-12">
                         <div class="form-group search text-center ">
                             <level >Search Property</level>
                             <ul>
                                 <li>
+
                                     <select name="property-type"class="btn btn-secondary form-controll" > 
+
                                         <option value="all">All</option>
                                         <option value="commercial">Commercial</option>
                                         <option value="residential">Residential</option>
                                         <option value="land">Land</option>
+
+
                                     </select>
+
                                 </li>
                                 <li>
                                     <select name="location"class="btn btn-secondary e"  >
+
                                         <option value="all">All</option>
                                         <option value="dhaka">Dhaka</option>
                                         <option value="chittagong">Chittagong</option>
@@ -278,32 +309,49 @@
                                         <option value="rangpur">Rangpur</option>
                                         <option value="dinajpur">Dinajpur</option>
                                     </select>
+
+
                                 </li>
+
                                 <li>
                                     <select name="area"class="btn btn-secondary"  >
+
                                         <option value="all">All</option>
                                         <option value="mirpur">Mirpur</option>
                                         <option value="azimpur">Azimpur</option>
                                         <option value="mohammadpur">Mohammadpur</option>
+
+
+
+
                                     </select>	
                                 </li>
+
                                 <li >
                                     <select name="price-base"class="btn btn-secondary"  >
+
                                         <option value="all">All</option>
                                         <option value="squreFt">Squre ft</option>
                                         <option value="noOfRoom">No. of Room </option>
                                         <option value="mohammadpur">Mohammadpur</option>
+
                                     </select>
+
+
+
                                 </li>
                                 <liv>
                                     <button name="search" class="btn btn-success"id="search"><i class="fas fa-search"></i></button>
                                 </liv>
+
+
                             </ul>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+
 
         <!--About Us -->
         <div class="fluid-container" style="background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg')">
@@ -313,11 +361,11 @@
                         <h1 id="aboutUs">about us</h1>
                         <div style="border-bottom:1px solid black;"></div>
                     </div>
+
                     <div class="col-md-12" style="margin: 15px 0px; ">
                         <h4>Unitas real estate Ltd. is a development based system.
                             This website is made for providing superior customer service and an unwavering dedication to the satisfaction of customers ,Proactively seeking to improve quality. 
                         </h4>
-                        <button class="btn btn-primary" style="float: right;">edit</button>
                     </div>
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-center text-capitalize">
@@ -330,7 +378,6 @@
                             We started with 14 acres; Since that time, Unitas real estate Ltd.
                             has expanded its real estate operations into Chittagong and Syhlet,
                             as well as its sales activities in Bangladesh. </h4>
-                        <button class="btn btn-primary" style="float: right;">edit</button>
                     </div>
                     <div class="col-md-12 text-center ">
                         <ul class="journey">
@@ -345,9 +392,7 @@
                                     real estate topics and news to keep pace with the digital 
                                     transformation. We also introduced marketing automation,
                                     architect video on projects, detailed e-brochures to keep 
-                                    ourselves in the forefront.
-                                    <button class="btn btn-primary" style="float: right;">edit</button>
-                                </p>
+                                    ourselves in the forefront.</p>
                             <li class="col-md-12 distance-line" >
                                 <div class="col-md-4"></div>
                                 <div class="col-md-4 journey-time">2015 to 2017</div>
@@ -361,9 +406,7 @@
                                     in the company would have to live by, to share a common purpose.
                                     After 2016, the market had been recovering, and the current trend
                                     in 2015 shows a promising future for us, confirming our position
-                                    as the best real estate company.
-                                    <button class="btn btn-primary" style="float: right;">edit</button>
-                                </p>
+                                    as the best real estate company.</p>
                                 <div class="col-md-6"></div>
                             </li>
                             <div id="aboutMore"  >
@@ -383,9 +426,7 @@
                                         dragging down every major real estate developer, 
                                         and obliterating the smaller ones. However, Unitas real estate Ltd.’s 
                                         financial position still remained strong, as we had maintained 
-                                        the goodwill and reputation of our brand.
-                                        <button class="btn btn-primary" style="float: right;">edit</button>
-                                    </p>
+                                        the goodwill and reputation of our brand.</p>
                                 </li>
                                 <li class="col-md-12 distance-line" >
                                     <div class="col-md-4"></div>
@@ -403,10 +444,7 @@
                                         developers failed to keep their promises and we developed a 
                                         reputation of keeping our commitments We also significantly 
                                         increased the number of our projects starting in 2010 and this 
-                                        is also when we first expanded to Chittagong.
-                                        <button class="btn btn-primary" style="float: right;">edit</button>
-                                    </p>
-
+                                        is also when we first expanded to Chittagong.</p>
                                     <div class="col-md-6"></div>
                                 </li>
 
@@ -416,14 +454,12 @@
                             <a  id="aboutSeeMore"  style="cursor: pointer; text-decoration: none; ">See More</a>
                         </div>
                     </div>
-
                     <div class="col-md-5 text-center aboutUs"  >  
                         <h1>our vision</h1>
                         <p>Our vision is to achieve excellence in Real Estate Development, 
                             for the benefit of our customer, nation and society through professionalism, 
                             ethics, quality and customer service. To respect and comply with safety, 
                             environmental and legal requirements.
-                            <button class="btn btn-primary" style="float: right;">edit</button>
                         </p>        
                     </div>
                     <div class="col-md-2"></div>
@@ -431,20 +467,19 @@
                         <h1>our mission</h1>
                         <p>Our mission is to develop quality Residential, Commercial and land properties 
                             with high standards at affordable prices and achieve customer satisfaction.
-                            <button class="btn btn-primary" style="float: right;">edit</button>
-                        </p>        
+                        </p>
                     </div>
                 </div>
             </div>
 
             <!-- Our Team -->
+
             <div class="container "  id="team">
                 <div class="row our-team">
                     <div class="col-md-12 text-center text-capitalize" >
                         <h1>our team</h1>
                         <div style="border-bottom:1px solid black;"></div>
                     </div>      
-
                     <div class="col-md-3 text-white ">
                         <div class="card">
                             <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
@@ -517,7 +552,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 text-white ">
                         <div class="card">
                             <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
@@ -619,7 +654,7 @@
                                     “The government will construct sustainable dwellings for the rural people
                                     through the National Housing Authority (NHA) with a view to achieving the
                                     target of Sustainable Development Goals (SDGs).</h5>
-                                <button class="btn btn-primary" style="float: right;">edit</button>
+
                             </div>
                         </div>
                     </div>
@@ -631,7 +666,7 @@
                             <div class="newsline col-md-12">
                                 <h3>Silhouette</h3>
                                 <h5>Completed and sold in 2016.</h5>
-                                <button class="btn btn-primary" style="float: right;">edit</button>
+
                             </div>
                         </div>
                     </div>
@@ -648,7 +683,7 @@
                                     city due to real estate construction boom in a haphazard manner. 
                                     To alleviate the dire condition of city planning, passing of legislation
                                     of “City and Area Planning Act 2017″ is urgently needed.</h5>
-                                <button class="btn btn-primary" style="float: right;">edit</button>
+
                             </div>
                         </div>
                     </div>
@@ -660,13 +695,12 @@
                             <div class="newsline col-md-12">
                                 <h3>Estribillo</h3>
                                 <h5>One of the Luxurious Apartment Project has Handed Over in 2014.</h5>
-                                <button class="btn btn-primary" style="float: right;">edit</button>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!--Property-->
             <div class="container " id="properties">
                 <div class="row headName">
@@ -687,7 +721,7 @@
                         <a id="commercial-nav" class="nav-link" data-toggle="tab" href="#commercial-item">Commercial</a>
                     </li>
                 </ul>
-                <div class="tab-content img-setup">
+                <div class="tab-content img-setup ">
                     <div id="land-item" class="container tab-pane active tab-con" ><br>
                         <h2>Land</h2>
                         <div class="container over-hide card-change" id="land">
@@ -1489,7 +1523,7 @@
                                     <h3>lorem</h3>
                                     <div class = "row" align = "center">
                                         <button class="btn btn-primary">view</button>
-                                        <button class="btn btn-primary">edit</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -1502,7 +1536,7 @@
                                     <h3>lorem</h3>
                                     <div class = "row" align = "center">
                                         <button class="btn btn-primary">view</button>
-                                        <button class="btn btn-primary">edit</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -1514,7 +1548,7 @@
                                     <h3>lorem</h3>
                                     <div class = "row" align = "center">
                                         <button class="btn btn-primary">view</button>
-                                        <button class="btn btn-primary">edit</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -1526,7 +1560,7 @@
                                     <h3>lorem</h3>
                                     <div class = "row" align = "center">
                                         <button class="btn btn-primary">view</button>
-                                        <button class="btn btn-primary">edit</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -1537,47 +1571,47 @@
             <div class="container footer headName" id="contactUs">
                 <div class="row">
                     <div class="col-md-12">
-                    <div class="col-md-5 ">
-                        <h1 class="text-capitalize" style="margin-left: 40px">
-                            contact us                
-                        </h1>
-                        <div>
-                            <form action="#" class="contact" >
-                                <input type="text" class="form-control" placeholder="Enter Username" name="username">
-                                <input type="email" class="form-control" placeholder="Enter Email Address" name="email">
-                                <input type="text" class="form-control" placeholder="Enter Your Phone Number" name="phoneNumber">
-                                <input type="text" class="form-control" placeholder="Enter Your Company Name" name="companyName">
-                                <textarea name="msg"  placeholder="Message Us" id="" cols="30" rows="10" class="form-control"></textarea>
-                                <input type="button" class="btn btn-success " value="submit">
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5" >
-                        <h1>Unitas Real Estate Ltd.</h1>
-                        <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2581.343013290253!2d90.4501130173517!3d23.79831127554604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e37e452e46e2e5f!2sUnited+International+University!5e0!3m2!1sen!2sbd!4v1524780861708" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                        <h3>Address Details</h3>
-                        <div class="col-md-12 contact-address">
-                           
-                            <i class="fas fa-map-marker-alt " style="font-size: 30px"></i>
-                            <h5>Madani Avenue, Satarkul, Dhaka</h5>
+                        <div class="col-md-5 ">
+                            <h1 class="text-capitalize" style="margin-left: 40px">
+                                contact us                
+                            </h1>
+                            <div>
+                                <form action="#" class="contact" >
+                                    <input type="text" class="form-control" placeholder="Enter Username" name="username">
+                                    <input type="email" class="form-control" placeholder="Enter Email Address" name="email">
+                                    <input type="text" class="form-control" placeholder="Enter Your Phone Number" name="phoneNumber">
+                                    <input type="text" class="form-control" placeholder="Enter Your Company Name" name="companyName">
+                                    <textarea name="msg"  placeholder="Message Us" id="" cols="30" rows="10" class="form-control"></textarea>
+                                    <input type="button" class="btn btn-success " value="submit">
+                                </form>
+                            </div>
                         </div>
 
-                        <div class="col-md-12 contact-address">
-                            <i class="fas fa-envelope" style="font-size: 30px"></i>
-                            <h5>unitas.ltd@gmail.com</h5>
-                        </div>
-                        
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5" >
+                            <h1>Unitas Real Estate Ltd.</h1>
+                            <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2581.343013290253!2d90.4501130173517!3d23.79831127554604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e37e452e46e2e5f!2sUnited+International+University!5e0!3m2!1sen!2sbd!4v1524780861708" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <h3>Address Details</h3>
+                            <div class="col-md-12 contact-address">
 
-                        <div class="col-md-12 contact-address">
-                            <i class="fas fa-phone" style="font-size: 30px"></i>
-                            <h5>011-xxxx-xxxx</h5>
+                                <i class="fas fa-map-marker-alt " style="font-size: 30px"></i>
+                                <h5>Madani Avenue, Satarkul, Dhaka</h5>
+                            </div>
+
+                            <div class="col-md-12 contact-address">
+                                <i class="fas fa-envelope" style="font-size: 30px"></i>
+                                <h5>unitas.ltd@gmail.com</h5>
+                            </div>
+
+
+                            <div class="col-md-12 contact-address">
+                                <i class="fas fa-phone" style="font-size: 30px"></i>
+                                <h5>011-xxxx-xxxx</h5>
+                            </div>
+
+
                         </div>
-                        <button class="btn btn-primary" >edit</button>
                     </div>
-                    </div>
-                
                     <div class="col-md-3"></div>
                     <div class="col-md-6 text-center text-capitalize copyRight" >
                         <h5>&copy;all rights reserved</h5>
@@ -1586,194 +1620,183 @@
                     <div class="col-md-3"></div>
                 </div>
             </div>
-        </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+            <!-- js -->
+
+            <script src="../js/main.js"></script>
+            <!-- //js -->
+
+
+            <script type='text/javascript' src='../scripts/jquery.easing.1.3.js'></script> 
+
+            <script type='text/javascript' src='../scripts/camera.min.js'></script> 
+
+            <script>
+                jQuery(function () {
+
+                    jQuery('#slider').camera({
+                        thumbnails: true
+                    });
+
+                });
+            </script>
+
+
+            <!-- for bootstrap working -->
+
+
+            <!-- //for bootstrap working -->
+            <!-- stats -->
+
+            <script src="../js/jquery.waypoints.min.js"></script>
+            <script src="../js/jquery.countup.js"></script>
+            <script>
+                $('.counter').countUp();
+            </script>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+            <!-- //stats -->
+
+
+            <script>
 
 
 
+                $(window).on('scroll', function () {
+                    $a = $(window).scrollTop();
 
 
+                    if ($a > 250)
+                    {
+                        $("#top-menu-background").css('height', '50px');
+
+                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"></span>real estate ltd.<i class="fas fa-building"></i></a>');
+                        $("#logo").css({'font-size': '18px'});
+                        $(".nav-font > li > a,#login").css({
+                            'margin-top': '-25px'});
+                        $(".nav-font > li > ").css({
+                            'margin-top': '-25px'});
+                    } else if ($a > 0)
+                    {
+                        $("#top-menu-background").css('height', '100px');
+                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a>');
+
+                        $("#logo").css('font-size', '20px');
+                        $(".nav-font > li > a,#login").css({
+                            'font-size': '10px', 'margin-top': '0px'});
+
+                    } else
+                    {
+                        $("#top-menu-background").css('height', '120px');
+                        $("#logo").css('font-size', '25px');
+                        $(".nav-font > li > a,#login").css(
+                                {'font-size': '15px', 'margin-top': '0px'});
+
+                    }
 
 
+                });
+                $("#aboutMore").hide();
+                $aboutMore = 1;
+                $("#aboutSeeMore").click(function () {
 
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-
-        <!-- js -->
-
-        <script src="../js/main.js"></script>
-        <!-- //js -->
-
-
-        <script type='text/javascript' src='../scripts/jquery.easing.1.3.js'></script> 
-
-        <script type='text/javascript' src='../scripts/camera.min.js'></script> 
-
-        <script>
-            jQuery(function () {
-
-                jQuery('#slider').camera({
-                    thumbnails: true
+                    $("#aboutMore").fadeToggle(1000);
+                    if ($aboutMore == 1)
+                    {
+                        $("#aboutSeeMore").html('Hide More');
+                        $aboutMore = 0;
+                    } else {
+                        $("#aboutSeeMore").html('See More');
+                        $aboutMore = 1;
+                    }
                 });
 
-            });
-        </script>
+
+                $("#land-over").hide();
+                $landMore = 1;
+                $("#land-more").click(function () {
 
 
-        <!-- for bootstrap working -->
+                    if ($landMore == 1)
+                    {
+                        $("#land-more").html('Hide More');
+                        $("#land").css({'height': '1000px', 'overflow': 'auto'});
+                        $landMore = 0;
+                        $("#land-over").fadeIn(1000);
+                    } else {
+                        $("#land-more").html('See More');
+                        $landMore = 1;
+                        $("#land").css({'height': 'auto', 'overflow': 'hidden'});
+                        $("#land-over").fadeOut(1000);
+                    }
+                });
+
+                $("#residential-over").hide();
+                $residentialMore = 1;
+                $("#residential-more").click(function () {
 
 
-        <!-- //for bootstrap working -->
-        <!-- stats -->
+                    if ($residentialMore == 1)
+                    {
+                        $("#residential-more").html('Hide More');
+                        $("#residential").css({'height': '1000px', 'overflow': 'auto'});
+                        $residentialMore = 0;
+                        $("#residential-over").fadeIn(1000);
+                    } else {
+                        $("#residential-more").html('See More');
+                        $residentialMore = 1;
+                        $("#residential").css({'height': 'auto', 'overflow': 'hidden'});
+                        $("#residential-over").fadeOut(1000);
+                    }
+                });
 
-        <script src="../js/jquery.waypoints.min.js"></script>
-        <script src="../js/jquery.countup.js"></script>
-        <script>
-            $('.counter').countUp();
-        </script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-
-        <!-- //stats -->
-
-
-        <script>
-
-
-
-            $(window).on('scroll', function () {
-                $a = $(window).scrollTop();
+                $("#commercial-over").hide();
+                $commercialMore = 1;
+                $("#commercial-more").click(function () {
 
 
-                if ($a > 250)
-                {
-                    $("#top-menu-background").css('height', '50px');
+                    if ($commercialMore == 1)
+                    {
+                        $("#commercial-more").html('Hide More');
+                        $("#commercial").css({'height': '1000px', 'overflow': 'auto'});
+                        $commercialMore = 0;
+                        $("#commercial-over").fadeIn(1000);
+                    } else {
+                        $("#commercial-more").html('See More');
+                        $commercialMore = 1;
+                        $("#commercial").css({'height': 'auto', 'overflow': 'hidden'});
+                        $("#commercial-over").fadeOut(1000);
+                    }
+                });
 
-                    $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"></span>real estate ltd.<i class="fas fa-building"></i></a>');
-                    $("#logo").css({'font-size': '18px'});
-                    $(".nav-font > li > a,#login").css({
-                        'margin-top': '-25px'});
-                    $(".nav-font > li > ").css({
-                        'margin-top': '-25px'});
-                } else if ($a > 0)
-                {
-                    $("#top-menu-background").css('height', '100px');
-                    $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a>');
-
-                    $("#logo").css('font-size', '20px');
-                    $(".nav-font > li > a,#login").css({
-                        'font-size': '10px', 'margin-top': '0px'});
-
-                } else
-                {
-                    $("#top-menu-background").css('height', '120px');
-                    $("#logo").css('font-size', '25px');
-                    $(".nav-font > li > a,#login").css(
-                            {'font-size': '15px', 'margin-top': '0px'});
-
-                }
-
-
-            });
-            $("#aboutMore").hide();
-            $aboutMore = 1;
-            $("#aboutSeeMore").click(function () {
-
-                $("#aboutMore").fadeToggle(1000);
-                if ($aboutMore == 1)
-                {
-                    $("#aboutSeeMore").html('Hide More');
-                    $aboutMore = 0;
-                } else {
-                    $("#aboutSeeMore").html('See More');
-                    $aboutMore = 1;
-                }
-            });
-
-
-            $("#land-over").hide();
-            $landMore = 1;
-            $("#land-more").click(function () {
-
-
-                if ($landMore == 1)
-                {
-                    $("#land-more").html('Hide More');
-                    $("#land").css({'height': '1000px', 'overflow': 'auto'});
-                    $landMore = 0;
-                    $("#land-over").fadeIn(1000);
-                } else {
+                $("#land-nav").click(function () {
                     $("#land-more").html('See More');
                     $landMore = 1;
                     $("#land").css({'height': 'auto', 'overflow': 'hidden'});
-                    $("#land-over").fadeOut(1000);
-                }
-            });
-
-            $("#residential-over").hide();
-            $residentialMore = 1;
-            $("#residential-more").click(function () {
-
-
-                if ($residentialMore == 1)
-                {
-                    $("#residential-more").html('Hide More');
-                    $("#residential").css({'height': '1000px', 'overflow': 'auto'});
-                    $residentialMore = 0;
-                    $("#residential-over").fadeIn(1000);
-                } else {
+                    $("#land-over").fadeOut();
+                });
+                $("#residential-nav").click(function () {
                     $("#residential-more").html('See More');
                     $residentialMore = 1;
                     $("#residential").css({'height': 'auto', 'overflow': 'hidden'});
-                    $("#residential-over").fadeOut(1000);
-                }
-            });
+                    $("#residential-over").fadeOut();
+                });
 
-            $("#commercial-over").hide();
-            $commercialMore = 1;
-            $("#commercial-more").click(function () {
-
-
-                if ($commercialMore == 1)
-                {
-                    $("#commercial-more").html('Hide More');
-                    $("#commercial").css({'height': '1000px', 'overflow': 'auto'});
-                    $commercialMore = 0;
-                    $("#commercial-over").fadeIn(1000);
-                } else {
+                $("#commercial-nav").click(function () {
                     $("#commercial-more").html('See More');
                     $commercialMore = 1;
                     $("#commercial").css({'height': 'auto', 'overflow': 'hidden'});
-                    $("#commercial-over").fadeOut(1000);
-                }
-            });
-
-            $("#land-nav").click(function () {
-                $("#land-more").html('See More');
-                $landMore = 1;
-                $("#land").css({'height': 'auto', 'overflow': 'hidden'});
-                $("#land-over").fadeOut();
-            });
-            $("#residential-nav").click(function () {
-                $("#residential-more").html('See More');
-                $residentialMore = 1;
-                $("#residential").css({'height': 'auto', 'overflow': 'hidden'});
-                $("#residential-over").fadeOut();
-            });
-
-            $("#commercial-nav").click(function () {
-                $("#commercial-more").html('See More');
-                $commercialMore = 1;
-                $("#commercial").css({'height': 'auto', 'overflow': 'hidden'});
-                $("#commercial-over").fadeOut();
-            })
+                    $("#commercial-over").fadeOut();
+                })
 
 
 
 
-        </script>
-
+            </script>
 
     </body> 
 </html>
