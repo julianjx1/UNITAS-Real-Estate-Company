@@ -1,5 +1,6 @@
 <?php include('connection.php'); ?>
 <?php include('login.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,7 +25,7 @@
             <div class="row">
                 <div class="col-md-12" style="background-color: black; opacity: .4;height: 150px; " ></div>
                 <div class="col-md-3 " style="padding:15px 0px 0px 50px; position: absolute;">
-                    <h1 id="logo"><a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
+                    <h1 id="logo"><a class="navbar-brand " href="LoggedIn.php" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
                 </div>
                 <div class="col-md-8" style="position:absolute;margin-left: 20%;"  >
                     <nav class="navbar navbar-default " id="nav">
@@ -41,8 +42,8 @@
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
                             <nav class="cl-effect-13" id="cl-effect-13">
                                 <ul class="nav navbar-nav nav-font" >
-                                    <li ><a  href="Front page.html">Home</a></li>
-                                    <li><a href="Front%20page.html#aboutUs" >about us</a></li>							
+                                    <li ><a  href="LoggedIn.php">Home</a></li>
+                                    <li><a href="LoggedIn.php#aboutUs" >about us</a></li>							
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >properties <b class="caret"></b></a>
                                         <ul class="dropdown-menu agile_short_dropdown">
@@ -51,10 +52,12 @@
                                             <li><a data-toggle="tab"href="#commercial">Commercial</a></li>									
                                         </ul>
                                     </li>
-                                    <li><a href="Front%20page.html#team"  >team</a></li>
-                                    <li><a href="Front%20page.html#gallery" >gallery</a></li>
-                                    <li><a href="Front%20page.html#contactUs" >Contact</a></li>	
-                                    <li><button class="btn btn-primary" id="login" data-toggle="modal" data-target="#myModal">Logout</button></li>
+                                    <li><a href="LoggedIn.php#team"  >team</a></li>
+                                    <li><a href="LoggedIn.php#gallery" >gallery</a></li>
+                                    <li><a href="LoggedIn.php#contactUs" >Contact</a></li>	
+                                    <li><form action="Frontpage.php">
+                                        <button class="btn btn-primary" id="login">Logout</button></li>
+                                </form>
                                 </ul>
                             </nav>
                         </div>

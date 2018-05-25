@@ -166,66 +166,6 @@
 
         </div><!-- .fluid_container -->
 
-
-        <!--Login Popup-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Log in</h4>
-                    </div> <!-- /.modal-header -->
-                    <form  action="login.php" method="get">
-
-                        <div class="modal-body">
-
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="uLogin" placeholder="Login" name="id">
-                                    <label for="uLogin" class="input-group-addon  "><i class="fas fa-user"></i></label>
-                                </div>
-                            </div> <!-- /.form-group -->
-
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="password" class="form-control" id="uPassword" name = "password" placeholder="Password">
-                                    <label for="uPassword" class="input-group-addon "><i class="fas fa-lock"></i></label>
-                                </div> <!-- /.input-group -->
-                            </div> <!-- /.form-group -->
-
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio" value="1"><b>BUYER</b>
-                            </label>
-                            <span style="margin-left: 7em;"></span>
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio" value="2"><b>ADMIN</b>
-                            </label>
-
-
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
-                            </div> <!-- /.checkbox -->
-
-
-                            <!-- /.modal-body -->
-
-
-                            <button  class="btn btn-primary">Ok</button>
-
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
-                                    <span class="sr-only">progress</span>
-                                </div>
-                            </div>
-                        </div>	 <!-- /.modal-footer -->
-                    </form>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
         <!--property information popup-->
 
         <div class="modal fade" id="propertyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
@@ -327,7 +267,7 @@
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
                             <nav class="cl-effect-13" id="cl-effect-13">
                                 <ul class="nav navbar-nav nav-font" >
-                                    <li class="active"><a  href="Front%20page.html">Home</a></li>
+                                    <li class="active"><a  href="LoggedIn.php">Home</a></li>
                                     <li><a href="#aboutUs" >about us</a></li>
 
                                     <li class="dropdown">
@@ -342,7 +282,8 @@
                                     <li><a href="#team"  >team</a></li>
                                     <li><a href="#gallery" >gallery</a></li>
                                     <li><a href="#contactUs" >Contact</a></li>
-                                    <li><button class="btn btn-primary" id="login" data-toggle="modal" data-target="#myModal">Login</button></li>
+                                    <li><a href="PersonInformation.php" >Account</a></li>
+                                    <li><button class="btn btn-primary" id="login" >Logout</button></li>
                                 </ul>
                             </nav>
                         </div>
@@ -565,7 +506,7 @@
                             <div class="card">
                                 <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Mahir Shahriar Lipeng(Coding(Front end, Back end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">Mahir Shahriar Lipeng(Coding(Frontend))</h4>
                                 <div class="card-social-link ">
                                     <ul>
                                         <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
@@ -583,7 +524,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Aysha Siddiqua(Coding(Front end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">Aysha Siddiqua(Coding(Frontend))</h4>
 
                                 <div class="card-social-link">
                                     <ul>
@@ -603,7 +544,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="https://s3-media4.fl.yelpcdn.com/bphoto/ThmDus4WQkbtf4-UdlUbfA/o.jpg" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Sadia Afrin(Coding(Back end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">Sadia Afrin(Coding(Backend)</h4>
 
                                 <div class="card-social-link">
                                     <ul>
@@ -620,7 +561,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="https://s3-media3.fl.yelpcdn.com/bphoto/VccKzV1Fs-Ijvwz_xr6WHA/o.jpg" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Nusrat Jahan Jenny(Coding(Back end, Front end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">Nusrat Jahan jenny(Codding(Backend))</h4>
 
                                 <div class="card-social-link">
                                     <ul>
@@ -638,7 +579,7 @@
                             <div class="card">
                                 <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Saimon Islam (Coding(Front end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">saimon (3d)</h4>
                                 <div class="card-social-link ">
                                     <ul>
                                         <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
@@ -656,7 +597,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
                                 <div class="card-img-overlay team-member-bio"></div>
-                                <h4 class="card-title card-t">Mamun Molla(Coding(Front end)<br>Documentation)</h4>
+                                <h4 class="card-title card-t">mamun (3d)</h4>
 
                                 <div class="card-social-link">
                                     <ul>
@@ -672,7 +613,40 @@
 
                             </div>
                         </div>
-                       
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s3-media4.fl.yelpcdn.com/bphoto/ThmDus4WQkbtf4-UdlUbfA/o.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">remax director</h4>
+
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <a href="#">See More</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s3-media3.fl.yelpcdn.com/bphoto/VccKzV1Fs-Ijvwz_xr6WHA/o.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">remax director</h4>
+
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+
+                                    <a href="#">See More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -782,7 +756,7 @@
                                         <div class="gallary-info">
                                             <h3>Uttora</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary" data-toggle="modal" data-target="#propertyModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -797,7 +771,7 @@
                                         <div class="gallary-info">
                                             <h3>Uttora-2</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -810,7 +784,7 @@
                                         <div class="gallary-info">
                                             <h3>Baridhara</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -825,7 +799,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -841,7 +815,7 @@
                                             <div class="gallary-info">
                                                 <h3>Uttora-3</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -856,7 +830,7 @@
                                             <div class="gallary-info">
                                                 <h3>Banani</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -867,11 +841,11 @@
                                             <img src="https://www.rehabhousing.com/api/list/listings/100X100/232807/503681ce3a0c72754e03152e038bbaac.JPG" alt="" class="img-fluid">
 
 
-                                            <div class="card-img-overlay  gallary" ></div>
+                                            <div class="card-img-overlay  gallary"></div>
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -887,7 +861,7 @@
 
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div></div>                      
 
@@ -902,7 +876,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -917,7 +891,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -932,7 +906,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -948,7 +922,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -962,7 +936,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -977,7 +951,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -992,7 +966,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1007,7 +981,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1032,7 +1006,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1047,7 +1021,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1062,7 +1036,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1077,7 +1051,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1094,7 +1068,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1109,7 +1083,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1124,7 +1098,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1139,7 +1113,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1155,7 +1129,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1170,7 +1144,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1185,7 +1159,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1200,7 +1174,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1216,7 +1190,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1231,7 +1205,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1246,7 +1220,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1261,7 +1235,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1286,7 +1260,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1301,7 +1275,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1316,7 +1290,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1331,7 +1305,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                <button class="btn btn-primary">view</button>
 
                                             </div>
                                         </div>                      
@@ -1348,7 +1322,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1363,7 +1337,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1375,7 +1349,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1387,7 +1361,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1400,7 +1374,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1412,7 +1386,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1424,7 +1398,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1436,7 +1410,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1449,7 +1423,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1461,7 +1435,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1473,7 +1447,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      
@@ -1485,7 +1459,7 @@
                                             <div class="gallary-info">
                                                 <h3>lorem</h3>
                                                 <div class = "row" align = "center">
-                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+                                                    <button class="btn btn-primary">view</button>
 
                                                 </div>
                                             </div>                      

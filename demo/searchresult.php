@@ -54,7 +54,7 @@
                                     <li><a href="Front%20page.html#team"  >team</a></li>
                                     <li><a href="Front%20page.html#gallery" >gallery</a></li>
                                     <li><a href="Front%20page.html#contactUs" >Contact</a></li>	
-                                    <li><button class="btn btn-primary" id="login" data-toggle="modal" data-target="#myModal">Logout</button></li>
+                                    
                                 </ul>
                             </nav>
                         </div>
@@ -81,14 +81,14 @@
                                                     <th scope="col">Property</th>
                                                     <th scope="col">Property Name</th>
                                                     <th scope="col">Property Type</th>
-                                                    <th scope="col">Status</th>>
+                                                    <th scope="col">Status</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <div class="container over-hide card-change">
-                                                            <div class="col-md-3">
+
+                                                            <div class="col-md-10">
                                                                 <div class="card">
                                                                     <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
                                                                     <div class="card-img-overlay  gallary"></div>
@@ -100,7 +100,7 @@
                                                                     </div>                      
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        
                                                     </td>
                                                     <td>Simcity</td>
                                                     <td>Residential</td>

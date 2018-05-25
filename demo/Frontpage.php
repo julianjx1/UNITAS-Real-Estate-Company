@@ -294,7 +294,7 @@
                                         </div>
 
                                     </div>
-                                    
+
                                 </div>
 
 
@@ -435,1224 +435,1191 @@
 
         <!--About Us -->
         <div class="fluid-container" >
-           <div style="background-color: silver">
-            <div class="container" style="margin-bottom: 120px ; "  >
-                <div class="row" >
-                    <div class="col-md-12 text-center text-capitalize">
-                        <h1 id="aboutUs">about us</h1>
-                        <div style="border-bottom:1px solid black;"></div>
-                    </div>
+            <div style="background-color: silver">
+                <div class="container" style="margin-bottom: 120px ; "  >
+                    <div class="row" >
+                        <div class="col-md-12 text-center text-capitalize">
+                            <h1 id="aboutUs">about us</h1>
+                            <div style="border-bottom:1px solid black;"></div>
+                        </div>
 
-                    <div class="col-md-12" style="margin: 15px 0px; ">
-                        <h4>Unitas real estate Ltd. is a development based system.
-                            This website is made for providing superior customer service and an unwavering dedication to the satisfaction of customers ,Proactively seeking to improve quality. 
-                        </h4>
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4 text-center text-capitalize">
-                        <h1>our journey</h1>
-                        <div style="border-bottom:1px solid black; margin-bottom: 20px ;"></div>
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-12">
-                        <h4>Unitas real estate Ltd. was founded in Dhaka, Bangladesh in 2015 by X and Y.
-                            We started with 14 acres; Since that time, Unitas real estate Ltd.
-                            has expanded its real estate operations into Chittagong and Syhlet,
-                            as well as its sales activities in Bangladesh. </h4>
-                    </div>
-                    <div class="col-md-12 text-center ">
-                        <ul class="journey">
-                            <li class="col-md-12 distance-line" >
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4 text-center journey-time">2017 to 2018</div>
-                                <div class="col-md-4"></div>
-                                <div class="col-md-6"></div>
-                                <p class="col-md-6 journey-discription ">In 2017 we took branding to 
-                                    another level by introducing our new interactive website with 
-                                    more customer friendly pages as well as a blog covering 
-                                    real estate topics and news to keep pace with the digital 
-                                    transformation. We also introduced marketing automation,
-                                    architect video on projects, detailed e-brochures to keep 
-                                    ourselves in the forefront.</p>
-                            <li class="col-md-12 distance-line" >
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4 journey-time">2015 to 2017</div>
-                                <div class="col-md-4"></div>
-                            </li>
-                            <li >
-                                <p class="col-md-6 journey-discription journey-left">In 2016 
-                                    we renovated our head office customer lounges to give them
-                                    a highly sophisticated look. To improve our company culture,
-                                    we integrated our Core Values, something that every single employee
-                                    in the company would have to live by, to share a common purpose.
-                                    After 2016, the market had been recovering, and the current trend
-                                    in 2015 shows a promising future for us, confirming our position
-                                    as the best real estate company.</p>
-                                <div class="col-md-6"></div>
-                            </li>
-                            <div id="aboutMore"  >
+                        <div class="col-md-12" style="margin: 15px 0px; ">
+                            <h4>Unitas real estate Ltd. is a development based system.
+                                This website is made for providing superior customer service and an unwavering dedication to the satisfaction of customers ,Proactively seeking to improve quality. 
+                            </h4>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center text-capitalize">
+                            <h1>our journey</h1>
+                            <div style="border-bottom:1px solid black; margin-bottom: 20px ;"></div>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-12">
+                            <h4>Unitas real estate Ltd. was founded in Dhaka, Bangladesh in 2015 by X and Y.
+                                We started with 14 acres; Since that time, Unitas real estate Ltd.
+                                has expanded its real estate operations into Chittagong and Syhlet,
+                                as well as its sales activities in Bangladesh. </h4>
+                        </div>
+                        <div class="col-md-12 text-center ">
+                            <ul class="journey">
                                 <li class="col-md-12 distance-line" >
                                     <div class="col-md-4"></div>
-                                    <div class="col-md-4 journey-time">2010 to 2015</div>
+                                    <div class="col-md-4 text-center journey-time">2017 to 2018</div>
                                     <div class="col-md-4"></div>
-                                </li>
-                                <li>
                                     <div class="col-md-6"></div>
-                                    <p class="col-md-6 journey-discription">This was the era of brand 
-                                        building for Unitas real estate Ltd. Sales were soaring once again;
-                                        Unitas real estate Ltd. came up strong as one of the top real estate 
-                                        companies in the country, and we launched our Premium Collection
-                                        apartments. Before that, we only had Classic Collection apartments. 
-                                        However, the bubble burst for the real estate market, 
-                                        dragging down every major real estate developer, 
-                                        and obliterating the smaller ones. However, Unitas real estate Ltd.’s 
-                                        financial position still remained strong, as we had maintained 
-                                        the goodwill and reputation of our brand.</p>
-                                </li>
+                                    <p class="col-md-6 journey-discription ">In 2017 we took branding to 
+                                        another level by introducing our new interactive website with 
+                                        more customer friendly pages as well as a blog covering 
+                                        real estate topics and news to keep pace with the digital 
+                                        transformation. We also introduced marketing automation,
+                                        architect video on projects, detailed e-brochures to keep 
+                                        ourselves in the forefront.</p>
                                 <li class="col-md-12 distance-line" >
                                     <div class="col-md-4"></div>
-                                    <div class="col-md-4 journey-time">2000 to 2010</div>
+                                    <div class="col-md-4 journey-time">2015 to 2017</div>
                                     <div class="col-md-4"></div>
                                 </li>
                                 <li >
-                                    <p class="col-md-6 journey-discription journey-left">In the beginning 
-                                        of this era, we were suffering losses at an all time low. 
-                                        The number of competitors was exponentially growing and other 
-                                        developers were taking land from the landowners ahead of us 
-                                        because we were not willing to make commitments that we were not 
-                                        100% confident we would be able to keep. However, eventually our 
-                                        conservative approach proved to be the best strategy as many 
-                                        developers failed to keep their promises and we developed a 
-                                        reputation of keeping our commitments We also significantly 
-                                        increased the number of our projects starting in 2010 and this 
-                                        is also when we first expanded to Chittagong.</p>
+                                    <p class="col-md-6 journey-discription journey-left">In 2016 
+                                        we renovated our head office customer lounges to give them
+                                        a highly sophisticated look. To improve our company culture,
+                                        we integrated our Core Values, something that every single employee
+                                        in the company would have to live by, to share a common purpose.
+                                        After 2016, the market had been recovering, and the current trend
+                                        in 2015 shows a promising future for us, confirming our position
+                                        as the best real estate company.</p>
                                     <div class="col-md-6"></div>
                                 </li>
+                                <div id="aboutMore"  >
+                                    <li class="col-md-12 distance-line" >
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4 journey-time">2010 to 2015</div>
+                                        <div class="col-md-4"></div>
+                                    </li>
+                                    <li>
+                                        <div class="col-md-6"></div>
+                                        <p class="col-md-6 journey-discription">This was the era of brand 
+                                            building for Unitas real estate Ltd. Sales were soaring once again;
+                                            Unitas real estate Ltd. came up strong as one of the top real estate 
+                                            companies in the country, and we launched our Premium Collection
+                                            apartments. Before that, we only had Classic Collection apartments. 
+                                            However, the bubble burst for the real estate market, 
+                                            dragging down every major real estate developer, 
+                                            and obliterating the smaller ones. However, Unitas real estate Ltd.’s 
+                                            financial position still remained strong, as we had maintained 
+                                            the goodwill and reputation of our brand.</p>
+                                    </li>
+                                    <li class="col-md-12 distance-line" >
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4 journey-time">2000 to 2010</div>
+                                        <div class="col-md-4"></div>
+                                    </li>
+                                    <li >
+                                        <p class="col-md-6 journey-discription journey-left">In the beginning 
+                                            of this era, we were suffering losses at an all time low. 
+                                            The number of competitors was exponentially growing and other 
+                                            developers were taking land from the landowners ahead of us 
+                                            because we were not willing to make commitments that we were not 
+                                            100% confident we would be able to keep. However, eventually our 
+                                            conservative approach proved to be the best strategy as many 
+                                            developers failed to keep their promises and we developed a 
+                                            reputation of keeping our commitments We also significantly 
+                                            increased the number of our projects starting in 2010 and this 
+                                            is also when we first expanded to Chittagong.</p>
+                                        <div class="col-md-6"></div>
+                                    </li>
 
+                                </div>
+                            </ul>
+                            <div class="col-md-12 text-center" style="padding-top: 20px; ">
+                                <a  id="aboutSeeMore"  style="cursor: pointer; text-decoration: none; ">See More</a>
                             </div>
-                        </ul>
-                        <div class="col-md-12 text-center" style="padding-top: 20px; ">
-                            <a  id="aboutSeeMore"  style="cursor: pointer; text-decoration: none; ">See More</a>
                         </div>
-                    </div>
-                    <div class="col-md-5 text-center aboutUs vision-mision-color"  >  
-                        <h1>our vision</h1>
-                        <p>Our vision is to achieve excellence in Real Estate Development, 
-                            for the benefit of our customer, nation and society through professionalism, 
-                            ethics, quality and customer service. To respect and comply with safety, 
-                            environmental and legal requirements.
-                        </p>        
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5 text-center aboutUs vision-mision-color" >  
-                        <h1>our mission</h1>
-                        <p>Our mission is to develop quality Residential, Commercial and land properties 
-                            with high standards at affordable prices and achieve customer satisfaction.
-                        </p>
+                        <div class="col-md-5 text-center aboutUs vision-mision-color"  >  
+                            <h1>our vision</h1>
+                            <p>Our vision is to achieve excellence in Real Estate Development, 
+                                for the benefit of our customer, nation and society through professionalism, 
+                                ethics, quality and customer service. To respect and comply with safety, 
+                                environmental and legal requirements.
+                            </p>        
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5 text-center aboutUs vision-mision-color" >  
+                            <h1>our mission</h1>
+                            <p>Our mission is to develop quality Residential, Commercial and land properties 
+                                with high standards at affordable prices and achieve customer satisfaction.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-</div>
             <!-- Our Team -->
-<div style="background-color: skyblue">
-            <div class="container "  id="team">
-                <div class="row our-team">
-                    <div class="col-md-12 text-center text-capitalize" >
-                        <h1>our team</h1>
-                        <div style="border-bottom:1px solid black;"></div>
-                    </div>      
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">Mahir Shahriar Lipeng(Coding(Frontend))</h4>
-                            <div class="card-social-link ">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
+            <div style="background-color: skyblue">
+                <div class="container "  id="team">
+                    <div class="row our-team">
+                        <div class="col-md-12 text-center text-capitalize" >
+                            <h1>our team</h1>
+                            <div style="border-bottom:1px solid black;"></div>
+                        </div>      
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Mahir Shahriar Lipeng(Coding(Front end, Back end)<br>Documentation)</h4>
+                                <div class="card-social-link ">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
 
-                                <a href="#">See More</a>
+                                    <a href="#">See More</a>
+                                </div>
+
                             </div>
 
                         </div>
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Aysha Siddiqua(Coding(Front end)<br>Documentation)</h4>
 
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">Aysha Siddiqua(Coding(Frontend))</h4>
-
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
-                                <a href="#">See More</a>
-                            </div>
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <a href="#">See More</a>
+                                </div>
 
 
 
-
-                        </div>
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://s3-media4.fl.yelpcdn.com/bphoto/ThmDus4WQkbtf4-UdlUbfA/o.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">Sadia Afrin(Coding(Backend)</h4>
-
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
-                                <a href="#">See More</a>
 
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://s3-media3.fl.yelpcdn.com/bphoto/VccKzV1Fs-Ijvwz_xr6WHA/o.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">Nusrat Jahan jenny(Codding(Backend))</h4>
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s3-media4.fl.yelpcdn.com/bphoto/ThmDus4WQkbtf4-UdlUbfA/o.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Sadia Afrin(Coding(Back end)<br>Documentation)</h4>
 
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <a href="#">See More</a>
 
-                                <a href="#">See More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s3-media3.fl.yelpcdn.com/bphoto/VccKzV1Fs-Ijvwz_xr6WHA/o.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Nusrat Jahan Jenny(Coding(Back end, Front end)<br>Documentation)</h4>
 
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">saimon (3d)</h4>
-                            <div class="card-social-link ">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
 
-                                <a href="#">See More</a>
+                                    <a href="#">See More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top card-img" src="http://www.easternct.edu/wp-content/blogs.dir/spotlights/images/jonathanAlpert.jpg" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Saimon Islam (Coding(Front end)<br>Documentation)</h4>
+                                <div class="card-social-link ">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+
+                                    <a href="#">See More</a>
+                                </div>
+
                             </div>
 
                         </div>
+                        <div class="col-md-3 text-white ">
+                            <div class="card">
+                                <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
+                                <div class="card-img-overlay team-member-bio"></div>
+                                <h4 class="card-title card-t">Mamun Molla(Coding(Front end)<br>Documentation)</h4>
 
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/CoreTeam/_DSC1702.png" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">mamun (3d)</h4>
-
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
-                                <a href="#">See More</a>
-                            </div>
+                                <div class="card-social-link">
+                                    <ul>
+                                        <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <a href="#">See More</a>
+                                </div>
 
 
 
-
-                        </div>
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://s3-media4.fl.yelpcdn.com/bphoto/ThmDus4WQkbtf4-UdlUbfA/o.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">remax director</h4>
-
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
-                                <a href="#">See More</a>
 
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 text-white ">
-                        <div class="card">
-                            <img class="card-img-top" src="https://s3-media3.fl.yelpcdn.com/bphoto/VccKzV1Fs-Ijvwz_xr6WHA/o.jpg" alt="">
-                            <div class="card-img-overlay team-member-bio"></div>
-                            <h4 class="card-title card-t">remax director</h4>
-
-                            <div class="card-social-link">
-                                <ul>
-                                    <li><a href="#" class="card-icon fb"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="card-icon twt"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="card-icon googlePlus"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
-
-                                <a href="#">See More</a>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
-</div>
             <!--Newsroow-->       
-<div style="background-color: silver">
-            <div class="container newsRoom">
-                <div class="row">
-                    <div class="col-md-12 text-center" style="padding: 5px; margin-top: 100px;border-bottom: 1px solid black; ">
-                        <h1>News Room</h1>
-                    </div>
-                    <div class="col-md-5">
-                        <h2>Latest News</h2>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5">
-                        <h2>Achivements</h2>
-                    </div>
-                    <div class="col-md-5 " >
-                        <div class="card" style="overflow-y: hidden">
-                            <img src="https://1.bp.blogspot.com/-cXpAQVJ1uSs/WJ2SKRS5NdI/AAAAAAAACWM/rg-X8YrVFPMNramBuh0c4GwHPXlinteiQCLcB/s1600/Pink_City_Purbachal_Dhaka_Duplex_House_8.jpg" class="img-fluid" alt="" >
-                            <div class="card-img-overlay news" ></div>
-                            <div class="newsline col-md-12">
-                                <h3>80,000 flats to be built at Purbachal: Minister</h3>
-                                <h5> Housing and Public Works Minister Khandaker Mosharraf Hossain
-                                    today said about 80,000 flats would be constructed in the Purbachal
-                                    residential area for all, including slum dwellers and lower-income people.
-                                    “The government will construct sustainable dwellings for the rural people
-                                    through the National Housing Authority (NHA) with a view to achieving the
-                                    target of Sustainable Development Goals (SDGs).</h5>
+            <div style="background-color: silver">
+                <div class="container newsRoom">
+                    <div class="row">
+                        <div class="col-md-12 text-center" style="padding: 5px; margin-top: 100px;border-bottom: 1px solid black; ">
+                            <h1>News Room</h1>
+                        </div>
+                        <div class="col-md-5">
+                            <h2>Latest News</h2>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5">
+                            <h2>Achivements</h2>
+                        </div>
+                        <div class="col-md-5 " >
+                            <div class="card" style="overflow-y: hidden">
+                                <img src="https://1.bp.blogspot.com/-cXpAQVJ1uSs/WJ2SKRS5NdI/AAAAAAAACWM/rg-X8YrVFPMNramBuh0c4GwHPXlinteiQCLcB/s1600/Pink_City_Purbachal_Dhaka_Duplex_House_8.jpg" class="img-fluid" alt="" >
+                                <div class="card-img-overlay news" ></div>
+                                <div class="newsline col-md-12">
+                                    <h3>80,000 flats to be built at Purbachal: Minister</h3>
+                                    <h5> Housing and Public Works Minister Khandaker Mosharraf Hossain
+                                        today said about 80,000 flats would be constructed in the Purbachal
+                                        residential area for all, including slum dwellers and lower-income people.
+                                        “The government will construct sustainable dwellings for the rural people
+                                        through the National Housing Authority (NHA) with a view to achieving the
+                                        target of Sustainable Development Goals (SDGs).</h5>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5 " >
-                        <div class="card" style="overflow-y: hidden">
-                            <img src="https://worklivelaos.com/wp-content/uploads/2011/10/asian-real-estate.jpg" class="img-fluid" alt="" >
-                            <div class="card-img-overlay news" ></div>
-                            <div class="newsline col-md-12">
-                                <h3>Silhouette</h3>
-                                <h5>Completed and sold in 2016.</h5>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5 " >
+                            <div class="card" style="overflow-y: hidden">
+                                <img src="https://worklivelaos.com/wp-content/uploads/2011/10/asian-real-estate.jpg" class="img-fluid" alt="" >
+                                <div class="card-img-overlay news" ></div>
+                                <div class="newsline col-md-12">
+                                    <h3>Silhouette</h3>
+                                    <h5>Completed and sold in 2016.</h5>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-12" style="height: 20px;"></div>
-                    <div class="col-md-5 " >
-                        <div class="card" style="overflow-y: hidden">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Academic_building_of_Armed_Forces_Medical_College_%28Bangladesh%29.jpg/1200px-Academic_building_of_Armed_Forces_Medical_College_%28Bangladesh%29.jpg" class="img-fluid" alt="" >
-                            <div class="card-img-overlay news" ></div>
-                            <div class="newsline col-md-12">
-                                <h3>Unplanned construction bane for city</h3>
-                                <h5> Based on data from Bangladesh Bureau of Statistics, 
-                                    it has been revealed that the country is losing land at the rate of one 
-                                    percent per year. Over the years Dhaka has transformed to an unrecognizable
-                                    city due to real estate construction boom in a haphazard manner. 
-                                    To alleviate the dire condition of city planning, passing of legislation
-                                    of “City and Area Planning Act 2017″ is urgently needed.</h5>
+                        <div class="col-md-12" style="height: 20px;"></div>
+                        <div class="col-md-5 " >
+                            <div class="card" style="overflow-y: hidden">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Academic_building_of_Armed_Forces_Medical_College_%28Bangladesh%29.jpg/1200px-Academic_building_of_Armed_Forces_Medical_College_%28Bangladesh%29.jpg" class="img-fluid" alt="" >
+                                <div class="card-img-overlay news" ></div>
+                                <div class="newsline col-md-12">
+                                    <h3>Unplanned construction bane for city</h3>
+                                    <h5> Based on data from Bangladesh Bureau of Statistics, 
+                                        it has been revealed that the country is losing land at the rate of one 
+                                        percent per year. Over the years Dhaka has transformed to an unrecognizable
+                                        city due to real estate construction boom in a haphazard manner. 
+                                        To alleviate the dire condition of city planning, passing of legislation
+                                        of “City and Area Planning Act 2017″ is urgently needed.</h5>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5 " >
-                        <div class="card" style="overflow-y: hidden">
-                            <img src="https://s.iha.com/5531900001784/Short-term-rentals-Surry-hills-The-Chic-Crown-apartment_1.jpeg" class="img-fluid" alt="" >
-                            <div class="card-img-overlay news" ></div>
-                            <div class="newsline col-md-12">
-                                <h3>Estribillo</h3>
-                                <h5>One of the Luxurious Apartment Project has Handed Over in 2014.</h5>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5 " >
+                            <div class="card" style="overflow-y: hidden">
+                                <img src="https://s.iha.com/5531900001784/Short-term-rentals-Surry-hills-The-Chic-Crown-apartment_1.jpeg" class="img-fluid" alt="" >
+                                <div class="card-img-overlay news" ></div>
+                                <div class="newsline col-md-12">
+                                    <h3>Estribillo</h3>
+                                    <h5>One of the Luxurious Apartment Project has Handed Over in 2014.</h5>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <!--Property-->
             <div style="background-color: skyblue">
-            <div class="container " id="properties">
-                <div class="row headName">
-                    <div class="col-md-12 text-center text-capitalize property-header ">
-                        <h1>Properties</h1>
+                <div class="container " id="properties">
+                    <div class="row headName">
+                        <div class="col-md-12 text-center text-capitalize property-header ">
+                            <h1>Properties</h1>
+                        </div>
+                        <div class="col-md-12 "style="border-bottom:1px solid black; "></div>
                     </div>
-                    <div class="col-md-12 "style="border-bottom:1px solid black; "></div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs " role="tablist" >
+                        <li class="nav-item">
+                            <a id="land-nav"class="nav-link active" data-toggle="tab" href="#land-item">Land</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#residential-item" id="residential-nav">Residential</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="commercial-nav" class="nav-link" data-toggle="tab" href="#commercial-item">Commercial</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content img-setup ">
+                        <div id="land-item" class="container tab-pane active tab-con" ><br>
+                            <h2>Land</h2>
+                            <div class="container over-hide card-change" id="land">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="http://media.mondinion.com/image.php?photoname=hash108/1010540-1.jpg&width=600&height=450" alt="" class="img-fluid">
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>Uttora</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#propertyModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3 " >
+                                    <div class="card">
+                                        <img src="../images/Land/2.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>Uttora-2</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Land/3.jpg" alt="" class="img-fluid">
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>Baridhara</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Land/4.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div>
+
+                                <div id="land-over">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="https://images1.jiji.ng/3423005_1467037789189_620x465.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>Uttora-3</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="https://www.rehabhousing.com/api/list/images/100X100/2094/0d696f39acb0292dd62eaf71bd41ddf8.JPG" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>Banani</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="https://www.rehabhousing.com/api/list/listings/100X100/232807/503681ce3a0c72754e03152e038bbaac.JPG" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary" ></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://static.clickbd.com/global/classified/item_img/1086898_0_original.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div></div>                      
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://static.clickbd.com/global/classified/item_img/1086876_0_original.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Land/10.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Land/11.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://pranburi-property.com/wordpress/wp-content/uploads/2016/02/L00041_Pranburi_Land_For_Sale001.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Land/17.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Land/14.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://tepantorhousingbd.com/uploads/1508298295.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Land/16.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
+                                <a id="land-more" class=" text-capitalize">see more</a>
+                            </div>
+                        </div>
+                        <div id="residential-item" class="container tab-pane fade tab-con"><br>
+                            <h2>Residential</h2>
+                            <div id="residential" class="container card-change over-hide">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Residential/15.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Residential/14.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Residential/13.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div>
+                                <div id="residential-over">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/12.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="http://shriyaproperties.com/wp-content/uploads/2014/03/shriya-sharma-elevation.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/2.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/3.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="https://cdn.homedit.com/wp-content/uploads/2017/03/Green-urban-treehouse-in-torino.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Residential/5.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/6.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/7.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="https://www.rehabhousing.com/api/list/listings/100X100/232463/8df7b73a7820f4aef47864f2a6c5fccf.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Residential/9.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/10.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Residential/11.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
+                                <a id="residential-more" class=" text-capitalize">see more</a>
+                            </div>
+                        </div>
+                        <div id="commercial-item" class="container tab-pane fade tab-con"><br>
+                            <h2>Commercial</h2>
+                            <div class="container over-hide card-change" id="commercial">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="http://kontrolenergy.com/wp-content/uploads/2016/08/Commercial-building.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="../images/Commercial/2.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="http://ictville.com/wp-content/uploads/2013/02/3175_santamaria.jpg" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div> <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/HK_%E4%B8%AD%E7%92%B0_Central_%E6%9D%B1%E6%96%B9%E6%9C%89%E8%89%B2%E5%A4%A7%E5%BB%88_Onfem_Tower_facade_Tung_Yiu_Commercial_Building_Dec-2010.JPG/800px-HK_%E4%B8%AD%E7%92%B0_Central_%E6%9D%B1%E6%96%B9%E6%9C%89%E8%89%B2%E5%A4%A7%E5%BB%88_Onfem_Tower_facade_Tung_Yiu_Commercial_Building_Dec-2010.JPG" alt="" class="img-fluid">
+
+
+                                        <div class="card-img-overlay  gallary"></div>
+                                        <div class="gallary-info">
+                                            <h3>lorem</h3>
+                                            <div class = "row" align = "center">
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                            </div>
+                                        </div>                      
+
+                                    </div>
+                                </div>
+                                <div id="commercial-over">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://www.vskarchitects.com/uploads/2/8/4/4/28446611/2723592_orig.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Commercial/6.jpg" alt="" class="img-fluid">
+
+
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Commercial/7.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://architecturesideas.com/wp-content/uploads/2017/03/01-3.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://www.jagaha.com/blog/wp-content/uploads/2017/02/Top-10-Mumbai-Commercial-Buildings-e1507178138201.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Commercial/10.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Commercial/11.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Commercial/12.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Commercial/13.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3 " >
+                                        <div class="card">
+                                            <img src="../images/Commercial/14.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="http://architecturesideas.com/wp-content/uploads/2017/03/02-2.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+                                        </div>
+                                    </div> <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="../images/Commercial/16.jpg" alt="" class="img-fluid">
+                                            <div class="card-img-overlay  gallary"></div>
+                                            <div class="gallary-info">
+                                                <h3>lorem</h3>
+                                                <div class = "row" align = "center">
+                                                    <button class="btn btn-primary"data-toggle="modal" data-target="#myModal">view</button>
+
+                                                </div>
+                                            </div>                      
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
+                                <a id="commercial-more" class=" text-capitalize">see more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs " role="tablist" >
-                    <li class="nav-item">
-                        <a id="land-nav"class="nav-link active" data-toggle="tab" href="#land-item">Land</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#residential-item" id="residential-nav">Residential</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="commercial-nav" class="nav-link" data-toggle="tab" href="#commercial-item">Commercial</a>
-                    </li>
-                </ul>
-                <div class="tab-content img-setup ">
-                    <div id="land-item" class="container tab-pane active tab-con" ><br>
-                        <h2>Land</h2>
-                        <div class="container over-hide card-change" id="land">
+            </div>    
+            <!--Gallery-->
+            <div style="background-color: silver">
+                <div class="container newsRoom headName img-setup" id="gallery">
+                    <div class="row">
+                        <div class="col-md-12 text-center" style="border-bottom: 1px solid black ">
+                            <h1 style="margin: 5px 0px">Gallery</h1>
+                        </div>
+                        <div class="col-md-12" style="height: 20px;"></div>
+                        <div class="col-md-12"><h2>Handover Projects</h2></div>
+                        <div class="col-md-12">
                             <div class="col-md-3">
                                 <div class="card">
-                                    <img src="http://media.mondinion.com/image.php?photoname=hash108/1010540-1.jpg&width=600&height=450" alt="" class="img-fluid">
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>Uttora</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3 " >
-                                <div class="card">
-                                    <img src="../images/Land/2.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>Uttora-2</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="../images/Land/3.jpg" alt="" class="img-fluid">
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>Baridhara</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="../images/Land/4.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
+                                    <img src="http://architecturesideas.com/wp-content/uploads/2017/03/05-2.jpg" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
                                             <button class="btn btn-primary">view</button>
 
                                         </div>
-                                    </div>                      
-
-                                </div>
-                            </div>
-
-                            <div id="land-over">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="https://images1.jiji.ng/3423005_1467037789189_620x465.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>Uttora-3</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="https://www.rehabhousing.com/api/list/images/100X100/2094/0d696f39acb0292dd62eaf71bd41ddf8.JPG" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>Banani</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="https://www.rehabhousing.com/api/list/listings/100X100/232807/503681ce3a0c72754e03152e038bbaac.JPG" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://static.clickbd.com/global/classified/item_img/1086898_0_original.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div></div>                      
-
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://static.clickbd.com/global/classified/item_img/1086876_0_original.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Land/10.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Land/11.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://pranburi-property.com/wordpress/wp-content/uploads/2016/02/L00041_Pranburi_Land_For_Sale001.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Land/17.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Land/14.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://tepantorhousingbd.com/uploads/1508298295.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Land/16.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                            <a id="land-more" class=" text-capitalize">see more</a>
-                        </div>
-                    </div>
-                    <div id="residential-item" class="container tab-pane fade tab-con"><br>
-                        <h2>Residential</h2>
-                        <div id="residential" class="container card-change over-hide">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="http://architecturesideas.com/wp-content/uploads/2017/03/07-2.jpg" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
+                                    <div class="gallary-info">
+                                        <h3>lorem</h3>
+                                        <div class = "row" align = "center">
+                                            <button class="btn btn-primary">view</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
                             <div class="col-md-3">
                                 <div class="card">
                                     <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
+                                    <div class="card-img-overlay  gallary"> </div>
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
                                             <button class="btn btn-primary">view</button>
 
                                         </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="../images/Residential/15.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>lorem</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="../images/Residential/14.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>lorem</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="../images/Residential/13.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>lorem</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div>
-                            <div id="residential-over">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/12.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="http://shriyaproperties.com/wp-content/uploads/2014/03/shriya-sharma-elevation.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/2.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/3.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="https://cdn.homedit.com/wp-content/uploads/2017/03/Green-urban-treehouse-in-torino.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Residential/5.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/6.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/7.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="https://www.rehabhousing.com/api/list/listings/100X100/232463/8df7b73a7820f4aef47864f2a6c5fccf.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Residential/9.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/10.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Residential/11.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                            <a id="residential-more" class=" text-capitalize">see more</a>
-                        </div>
-                    </div>
-                    <div id="commercial-item" class="container tab-pane fade tab-con"><br>
-                        <h2>Commercial</h2>
-                        <div class="container over-hide card-change" id="commercial">
+                            </div> 
                             <div class="col-md-3">
                                 <div class="card">
-                                    <img src="http://kontrolenergy.com/wp-content/uploads/2016/08/Commercial-building.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
+                                    <img src="http://architecturesideas.com/wp-content/uploads/2017/03/09-2.jpg" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
                                             <button class="btn btn-primary">view</button>
 
                                         </div>
-                                    </div>                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" style="height: 20px;"></div>
+                        <div class="col-md-12"><h2>Upcoming Projects</h2></div>
+                        <div class="col-md-12">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
+                                    <div class="gallary-info">
+                                        <h3>lorem</h3>
+                                        <div class = "row" align = "center">
+                                            <button class="btn btn-primary">view</button>
 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
+                                    <div class="gallary-info">
+                                        <h3>lorem</h3>
+                                        <div class = "row" align = "center">
+                                            <button class="btn btn-primary">view</button>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div> <div class="col-md-3">
                                 <div class="card">
-                                    <img src="../images/Commercial/2.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
+                                    <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
                                             <button class="btn btn-primary">view</button>
 
                                         </div>
-                                    </div>                      
-
+                                    </div>
                                 </div>
                             </div> <div class="col-md-3">
                                 <div class="card">
-                                    <img src="http://ictville.com/wp-content/uploads/2013/02/3175_santamaria.jpg" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
+                                    <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
+                                    <div class="card-img-overlay  gallary"> </div>
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
                                             <button class="btn btn-primary">view</button>
 
                                         </div>
-                                    </div>                      
-
-                                </div>
-                            </div> <div class="col-md-3">
-                                <div class="card">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/HK_%E4%B8%AD%E7%92%B0_Central_%E6%9D%B1%E6%96%B9%E6%9C%89%E8%89%B2%E5%A4%A7%E5%BB%88_Onfem_Tower_facade_Tung_Yiu_Commercial_Building_Dec-2010.JPG/800px-HK_%E4%B8%AD%E7%92%B0_Central_%E6%9D%B1%E6%96%B9%E6%9C%89%E8%89%B2%E5%A4%A7%E5%BB%88_Onfem_Tower_facade_Tung_Yiu_Commercial_Building_Dec-2010.JPG" alt="" class="img-fluid">
-
-
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>lorem</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
-
-                                        </div>
-                                    </div>                      
-
-                                </div>
-                            </div>
-                            <div id="commercial-over">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://www.vskarchitects.com/uploads/2/8/4/4/28446611/2723592_orig.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Commercial/6.jpg" alt="" class="img-fluid">
-
-
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Commercial/7.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://architecturesideas.com/wp-content/uploads/2017/03/01-3.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://www.jagaha.com/blog/wp-content/uploads/2017/02/Top-10-Mumbai-Commercial-Buildings-e1507178138201.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Commercial/10.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Commercial/11.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Commercial/12.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Commercial/13.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3 " >
-                                    <div class="card">
-                                        <img src="../images/Commercial/14.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="http://architecturesideas.com/wp-content/uploads/2017/03/02-2.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-                                    </div>
-                                </div> <div class="col-md-3">
-                                    <div class="card">
-                                        <img src="../images/Commercial/16.jpg" alt="" class="img-fluid">
-                                        <div class="card-img-overlay  gallary"></div>
-                                        <div class="gallary-info">
-                                            <h3>lorem</h3>
-                                            <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
-
-                                            </div>
-                                        </div>                      
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-center" style="margin-top: 50px; cursor: pointer">
-                            <a id="commercial-more" class=" text-capitalize">see more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-            <!--Gallery-->
-        <div style="background-color: silver">
-            <div class="container newsRoom headName img-setup" id="gallery">
-                <div class="row">
-                    <div class="col-md-12 text-center" style="border-bottom: 1px solid black ">
-                        <h1 style="margin: 5px 0px">Gallery</h1>
-                    </div>
-                    <div class="col-md-12" style="height: 20px;"></div>
-                    <div class="col-md-12"><h2>Handover Projects</h2></div>
-                    <div class="col-md-12">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://architecturesideas.com/wp-content/uploads/2017/03/05-2.jpg" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://architecturesideas.com/wp-content/uploads/2017/03/07-2.jpg" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://architecturesideas.com/wp-content/uploads/2017/03/09-2.jpg" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12" style="height: 20px;"></div>
-                    <div class="col-md-12"><h2>Upcoming Projects</h2></div>
-                    <div class="col-md-12">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <div class="col-md-3">
-                            <div class="card">
-                                <img src="http://nakshihomes.com/wp-content/uploads/2017/05/slide1.gif" alt="" class="img-fluid">
-                                <div class="card-img-overlay  gallary"> </div>
-                                <div class="gallary-info">
-                                    <h3>lorem</h3>
-                                    <div class = "row" align = "center">
-                                        <button class="btn btn-primary">view</button>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="container footer headName" id="contactUs">
                 <div class="row">
