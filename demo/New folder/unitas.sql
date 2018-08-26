@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 26, 2018 at 04:08 PM
--- Server version: 10.1.30-MariaDB
--- PHP Version: 7.2.2
+-- Generation Time: Aug 14, 2018 at 05:55 PM
+-- Server version: 10.1.34-MariaDB
+-- PHP Version: 7.2.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -60,7 +60,6 @@ CREATE TABLE `commercial` (
   `id` varchar(100) NOT NULL,
   `no_of_floor` int(100) NOT NULL,
   `no_of_units_per_floor` int(100) NOT NULL,
-  `price_per_floor` varchar(100) NOT NULL,
   `price_per_unit` int(100) NOT NULL,
   `complete_date` date NOT NULL,
   `picture` varchar(100) NOT NULL
@@ -70,8 +69,8 @@ CREATE TABLE `commercial` (
 -- Dumping data for table `commercial`
 --
 
-INSERT INTO `commercial` (`id`, `no_of_floor`, `no_of_units_per_floor`, `price_per_floor`, `price_per_unit`, `complete_date`, `picture`) VALUES
-('123', 4, 4, '500000', 40000, '2019-04-04', '7.jpg');
+INSERT INTO `commercial` (`id`, `no_of_floor`, `no_of_units_per_floor`, `price_per_unit`, `complete_date`, `picture`) VALUES
+('123', 4, 4, 40000, '2019-04-04', '');
 
 -- --------------------------------------------------------
 
@@ -81,8 +80,8 @@ INSERT INTO `commercial` (`id`, `no_of_floor`, `no_of_units_per_floor`, `price_p
 
 CREATE TABLE `land` (
   `id` varchar(100) NOT NULL,
-  `shatangsho` varchar(100) NOT NULL,
-  `amount_per_shatangsho` varchar(100) NOT NULL,
+  `acor` varchar(100) NOT NULL,
+  `amount_per_acor` varchar(100) NOT NULL,
   `picture` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -125,7 +124,7 @@ CREATE TABLE `property_address` (
 --
 
 INSERT INTO `property_address` (`id`, `road_no.`, `section`, `area`, `district`, `map_location`) VALUES
-('123', '4', 'A', 'Azimpur', 'Dhaka', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14610.348014284193!2d90.41451256977538!3d23.7264381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84f8d00648b%3A0x23756d319772ef84!2z4KaF4KeN4Kav4Ka-4Kao4KeH4KaV4KeN4Ka4IDIsIOCmrOCmv-CmrOCmvyDgprngp4fgpqEg4KaF4Kar4Ka_4Ka4!5e0!3m2!1sbn!2sbd!4v1535217873019\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>');
+('123', '4', 'A', 'Azimpur', 'Dhaka', '');
 
 -- --------------------------------------------------------
 
@@ -207,26 +206,11 @@ INSERT INTO `user_account` (`id`, `name`, `admin`, `picture`, `phone_number`, `a
 
 CREATE TABLE `user_banking` (
   `user_id` varchar(100) NOT NULL,
-  `property_id` varchar(100) NOT NULL,
-  `given_amount` varchar(100) NOT NULL,
-  `amount_given_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `given_amount` int(100) NOT NULL,
+  `amount_given_date` date NOT NULL,
   `bank_name` varchar(100) NOT NULL,
-  `bank_account_number` varchar(100) NOT NULL,
-  `transaction_id` varchar(100) NOT NULL,
-  `card_name` varchar(100) NOT NULL,
-  `card_number` varchar(100) NOT NULL,
-  `mobile_banking` varchar(100) NOT NULL,
-  `mobile_number` varchar(100) NOT NULL
+  `transaction_no` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `user_banking`
---
-
-INSERT INTO `user_banking` (`user_id`, `property_id`, `given_amount`, `amount_given_date`, `bank_name`, `bank_account_number`, `transaction_id`, `card_name`, `card_number`, `mobile_banking`, `mobile_number`) VALUES
-('arifa123', '123', '120', '2018-08-15 18:00:00', '', '', 'xdfref123sdf', 'visa', 'xdfre235sdr', '', ''),
-('arifa123', '123', '159', '0000-00-00 00:00:00', '', '', 'CY26EndX8e', '', '', 'bkash', '1535674'),
-('arifa123', '123', '333', '2018-08-16 20:57:23', '', '', 'qhEVHIZUjA', 'Visa', '123456987', '', '');
 
 -- --------------------------------------------------------
 
@@ -295,13 +279,6 @@ ALTER TABLE `user_account`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `user_banking`
---
-ALTER TABLE `user_banking`
-  ADD KEY `user_id` (`user_id`),
-  ADD KEY `property_id` (`property_id`);
-
---
 -- Indexes for table `visitor_enquiry`
 --
 ALTER TABLE `visitor_enquiry`
@@ -341,13 +318,6 @@ ALTER TABLE `property_address`
 --
 ALTER TABLE `residential`
   ADD CONSTRAINT `residential_ibfk_1` FOREIGN KEY (`id`) REFERENCES `property` (`id`);
-
---
--- Constraints for table `user_banking`
---
-ALTER TABLE `user_banking`
-  ADD CONSTRAINT `user_banking_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user_account` (`id`),
-  ADD CONSTRAINT `user_banking_ibfk_2` FOREIGN KEY (`property_id`) REFERENCES `property` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

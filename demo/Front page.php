@@ -1,4 +1,4 @@
- <?php include('login.php');?> 
+<?php include('header.php') ?>
 <!DOCTYPE html>
 <html> 
     <head> 
@@ -74,7 +74,7 @@
         <link rel="stylesheet" href="../css/Font%20page.css" type="text/css">
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#cl-effect-13" data-offset="0">
 
 
         <div class="fluid_container">
@@ -167,183 +167,221 @@
         </div><!-- .fluid_container -->
 
 
-        <!--Login Popup-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
-            <div class="modal-dialog modal-dialog-centered" role="document">
+        
+        
+        <!--property information popup-->
+        
+        <div class="modal fade" id="propertyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+            <div class="property-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
 
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Log in</h4>
+                        <h4 class="modal-title" id="myModalLabel">Property Name</h4>
                     </div> <!-- /.modal-header -->
-                    <form  action="login.php" method="get">
-                       
-                        <div class="modal-body">
+                    <div class="modal-body">
+                           
+      
+       <div class="row">
+           <div class="col-md-12">
+           <div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide col-md-6" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="uLogin" placeholder="Login" name="id">
-                                    <label for="uLogin" class="input-group-addon  "><i class="fas fa-user"></i></label>
-                                </div>
-                            </div> <!-- /.form-group -->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Los Angeles" style="width:100%;">
+      </div>
 
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="password" class="form-control" id="uPassword" name = "password" placeholder="Password">
-                                    <label for="uPassword" class="input-group-addon "><i class="fas fa-lock"></i></label>
-                                </div> <!-- /.input-group -->
-                            </div> <!-- /.form-group -->
+      <div class="item">
+        <img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?auto=compress&cs=tinysrgb&h=350" alt="New york" style="width:100%;">
+      </div>
+    </div>
 
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio" value="1"><b>BUYER</b>
-                            </label>
-                            <span style="margin-left: 7em;"></span>
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio" value="2"><b>ADMIN</b>
-                            </label>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+     <div style="border-bottom: 1px solid green">
+         <h1>Prperty Details :</h1>
+     </div>
+     <h2>Location : <span>Georgia</span></h2>
+     <div>
+         <ul>
+             <li>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam iure quod nemo, ut veritatis veniam cum libero sint sequi explicabo voluptatem officiis eveniet nihil. Possimus ab ratione suscipit deserunt in!
+             </li>
+              <li>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam iure quod nemo, ut veritatis veniam cum libero sint sequi explicabo voluptatem officiis eveniet nihil. Possimus ab ratione suscipit deserunt in!
+             </li>
+         </ul>
+     </div>
+      
+  </div>
+</div>
 
-
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
-                            </div> <!-- /.checkbox -->
-
-
-                            <!-- /.modal-body -->
-
-
-                            <button  class="btn btn-primary">Ok</button>
-
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
-                                    <span class="sr-only">progress</span>
-                                </div>
-                            </div>
-                        </div>	 <!-- /.modal-footer -->
-                    </form>
+           
+       </div>
+   </div>
+                    </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        <div class="container" id="top-menubar" style="position:fixed;width: 100%; z-index: 10">
-            <div class="row">
-                <div class="col-md-12" id="top-menu-background" ></div>
-                <div class="col-md-3 " style="padding:15px 0px 0px 50px; position: absolute;">
-                    <h1 id="logo"><a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
-                </div>
-
-                <div class="col-md-8" style="position:absolute;margin-left: 20%;"  >
-                    <nav class="navbar navbar-default " id="nav">
-                        <div class="navbar-header navbar-left">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
-                            <nav class="cl-effect-13" id="cl-effect-13">
-                                <ul class="nav navbar-nav nav-font" >
-                                    <li class="active"><a  href="Front%20page.html">Home</a></li>
-                                    <li><a href="#aboutUs" >about us</a></li>
-
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >properties <b class="caret"></b></a>
-                                        <ul class="dropdown-menu agile_short_dropdown">
-                                            <li><a href="#properties">Land</a></li>
-                                            <li><a  data-toggle="tab"href="#residential">Residential</a></li>
-                                            <li><a data-toggle="tab"href="#commercial">Commercial</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li><a href="#team"  >team</a></li>
-                                    <li><a href="#gallery" >gallery</a></li>
-                                    <li><a href="#contactUs" >Contact</a></li>
-                                    <li><button class="btn btn-primary" id="login" data-toggle="modal" data-target="#myModal">Login</button></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </nav>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
+        
+        
+        
+        
+        
+       
 
         <!--Search-->
+        
+        
+       
+     
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
         <div class="container" style="position: absolute; margin-top: 35% ">
             <div class="row">
 
                 <div >
-                    <form action="#" class="col-md-12">
+                    <form action="searchresult.php" class="col-md-12">
                         <div class="form-group search text-center ">
                             <level >Search Property</level>
                             <ul>
-                                <li>
+                                <li class="col-md-3">
+                                 <div class="form-group col-md-12">
+                                      <label for="email">Property Type:</label>
+                                       <select  name="property_type"class="btn btn-secondary form-control" > 
+                                               <option value="land">Land</option>
+                                                <option value="commercial">Commercial</option>
+                                                <option value="residential">Residential</option>
+                                         </select>
 
-                                    <select name="property-type"class="btn btn-secondary form-controll" > 
-
-                                        <option value="all">All</option>
-                                        <option value="commercial">Commercial</option>
-                                        <option value="residential">Residential</option>
-                                        <option value="land">Land</option>
-
-
-                                    </select>
+                                    </div>
 
                                 </li>
-                                <li>
-                                    <select name="location"class="btn btn-secondary e"  >
-
-                                        <option value="all">All</option>
-                                        <option value="dhaka">Dhaka</option>
-                                        <option value="chittagong">Chittagong</option>
-                                        <option value="rajshahi">Rajshahi</option>
-                                        <option value="sylhet">Sylhet</option>
-                                        <option value="rangpur">Rangpur</option>
-                                        <option value="dinajpur">Dinajpur</option>
-                                    </select>
+                                <li class="col-md-3">
+                                    <div class="form-group col-md-12">
+                                      <label for="email">Property size:</label>
+                                        <select name="property_size"class="btn btn-secondary form-control"  >
+                                            <option value="acor">Acor</option>
+                                            <option value="bigha">Bigha</option>
+                                            <option value="shatangsho">Shatangsho</option>
+                                         </select>
+      
+                                        </div>
 
 
                                 </li>
 
-                                <li>
-                                    <select name="area"class="btn btn-secondary"  >
+                                <li class="col-md-2">
+                                    <div class="form-group col-md-12">
+                                      <label for="email" name="minimum_size_title">Minimum Acor:</label>
+                                          <input type="number" value="0" min="0" name="minimum_size" class="form-control">
 
-                                        <option value="all">All</option>
-                                        <option value="mirpur">Mirpur</option>
-                                        <option value="azimpur">Azimpur</option>
-                                        <option value="mohammadpur">Mohammadpur</option>
-
-
-
-
-                                    </select>	
+                                    </div>
                                 </li>
 
-                                <li >
-                                    <select name="price-base"class="btn btn-secondary"  >
-
-                                        <option value="all">All</option>
-                                        <option value="squreFt">Squre ft</option>
-                                        <option value="noOfRoom">No. of Room </option>
-                                        <option value="mohammadpur">Mohammadpur</option>
-
-                                    </select>
+                                <li class="col-md-2">
+                                    <div class="form-group col-md-12">
+                                         <label for="email" name="maximum_size_title">Maximum Acor:</label>
+                                              <input type="number" value="100" max="10000" name="maximum_size" class="form-control">
+                                        </div>
 
 
 
-                                </li>
-                                <liv>
-                                    <button name="search" class="btn btn-success"id="search"><i class="fas fa-search"></i></button>
+                                </li >
+                                <liv class="col-md-2">
+                                   <div class="form-group col-md-12">
+                                         
+                                               <button name="search" class="btn btn-success"id="search"><i class="fas fa-search"></i></button>
+                                        </div>
+                                   
                                 </liv>
+                                
+                                <li class="col-md-3">
+                                 <div class="form-group col-md-12">
+                                          <label for="email">Property area:</label>
+                                             <select name="area"class="btn btn-secondary form-control"  >
+                                                    <option value="all">All</option>
+                                                     <option value="mirpur">Mirpur</option>
+                                                      <option value="azimpur">Azimpur</option>
+                                                      <option value="mohammadpur">Mohammadpur</option>
+                                             </select>	
 
+                                        </div>
+
+                                </li>
+                                <li class="col-md-3">
+                                    <div class="form-group col-md-12">
+                                      <label for="email">Property Location:</label>
+                                          <select name="location"class="btn btn-secondary form-control"  >
+                                             <option value="all">All</option>
+                                              <option value="dhaka">Dhaka</option>
+                                               <option value="chittagong">Chittagong</option>
+                                               <option value="rajshahi">Rajshahi</option>
+                                                <option value="sylhet">Sylhet</option>
+                                                <option value="rangpur">Rangpur</option>
+                                                 <option value="dinajpur">Dinajpur</option>
+                                              </select>
+
+                                    </div>
+
+
+                                </li>
+
+                                <li class="col-md-3">
+                                    <div class="form-group col-md-12">
+                                          <label for="email" name="minimum_price">Minimum Price Per Acor:</label>
+                                              <input type="number" value="0" min="0" name="minimum_value" class="form-control">
+
+                                        </div>
+                                </li>
+
+                                <li class="col-md-3">
+                                    <div class="form-group col-md-12">
+                                         <label for="email" name="maximum_price" >Maximum Price Per Acor:</label>
+                                              <input type="number" value="100" max="10000" name="maximum_value" class="form-control">
+                                        </div>
+
+
+
+                                </li >
+                                
 
                             </ul>
                         </div>
@@ -732,7 +770,7 @@
                                     <div class="gallary-info">
                                         <h3>Uttora</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary" data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -747,7 +785,7 @@
                                     <div class="gallary-info">
                                         <h3>Uttora-2</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -760,7 +798,7 @@
                                     <div class="gallary-info">
                                         <h3>Baridhara</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -775,7 +813,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -791,7 +829,7 @@
                                         <div class="gallary-info">
                                             <h3>Uttora-3</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -806,7 +844,7 @@
                                         <div class="gallary-info">
                                             <h3>Banani</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -821,7 +859,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -837,7 +875,7 @@
 
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div></div>                      
 
@@ -852,7 +890,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -867,7 +905,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -882,7 +920,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -898,7 +936,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -912,7 +950,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -927,7 +965,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -942,7 +980,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -957,7 +995,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -982,7 +1020,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -997,7 +1035,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1012,7 +1050,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1027,7 +1065,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1044,7 +1082,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1059,7 +1097,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1074,7 +1112,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1089,7 +1127,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1105,7 +1143,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1120,7 +1158,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1135,7 +1173,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1150,7 +1188,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1166,7 +1204,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1181,7 +1219,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1196,7 +1234,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1211,7 +1249,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1236,7 +1274,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1251,7 +1289,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1266,7 +1304,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1281,7 +1319,7 @@
                                     <div class="gallary-info">
                                         <h3>lorem</h3>
                                         <div class = "row" align = "center">
-                                            <button class="btn btn-primary">view</button>
+                                            <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                             <button class="btn btn-primary">edit</button>
                                         </div>
                                     </div>                      
@@ -1298,7 +1336,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1313,7 +1351,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1325,7 +1363,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1337,7 +1375,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1350,7 +1388,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1362,7 +1400,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1374,7 +1412,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1386,7 +1424,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1399,7 +1437,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1411,7 +1449,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1423,7 +1461,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1435,7 +1473,7 @@
                                         <div class="gallary-info">
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
-                                                <button class="btn btn-primary">view</button>
+                                                <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
                                                 <button class="btn btn-primary">edit</button>
                                             </div>
                                         </div>                      
@@ -1620,11 +1658,13 @@
                     <div class="col-md-3"></div>
                 </div>
             </div>
+        </div>
+      
+          
+         
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-
+           
+       
             <!-- js -->
 
             <script src="../js/main.js"></script>
@@ -1666,40 +1706,6 @@
 
 
 
-                $(window).on('scroll', function () {
-                    $a = $(window).scrollTop();
-
-
-                    if ($a > 250)
-                    {
-                        $("#top-menu-background").css('height', '50px');
-
-                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"></span>real estate ltd.<i class="fas fa-building"></i></a>');
-                        $("#logo").css({'font-size': '18px'});
-                        $(".nav-font > li > a,#login").css({
-                            'margin-top': '-25px'});
-                        $(".nav-font > li > ").css({
-                            'margin-top': '-25px'});
-                    } else if ($a > 0)
-                    {
-                        $("#top-menu-background").css('height', '100px');
-                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a>');
-
-                        $("#logo").css('font-size', '20px');
-                        $(".nav-font > li > a,#login").css({
-                            'font-size': '10px', 'margin-top': '0px'});
-
-                    } else
-                    {
-                        $("#top-menu-background").css('height', '120px');
-                        $("#logo").css('font-size', '25px');
-                        $(".nav-font > li > a,#login").css(
-                                {'font-size': '15px', 'margin-top': '0px'});
-
-                    }
-
-
-                });
                 $("#aboutMore").hide();
                 $aboutMore = 1;
                 $("#aboutSeeMore").click(function () {
@@ -1792,11 +1798,19 @@
                     $("#commercial").css({'height': 'auto', 'overflow': 'hidden'});
                     $("#commercial-over").fadeOut();
                 })
-
+                
 
 
 
             </script>
+             <script src="../js2/Search.js">
+                
+                
+                
+                
+
+            </script>
+
 
     </body> 
 </html>

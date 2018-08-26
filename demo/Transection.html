@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <!-- //for-mobile-apps -->
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- font-awesome icons -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css" />
+        <!-- //font-awesome icons -->
+        <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/Font%20page.css" type="text/css">
+        <link rel="stylesheet" href="../css/Person%20Information.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+        <style>
+            .font-weight-bold{
+                font-weight: bold;
+            }
+            #amount-distribution > div
+            {
+                margin-top: 5px;
+            }
+            #totalAmountDiv > level,#totalAmountDiv > input,.form-horizontal
+            {
+                margin-top: 100px;
+            }
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="amount-distribution">
+              <div class="col-md-12" id="totalAmountDiv">
+                  <level  for="totalamount" class="col-md-4 text-uppercase font-weight-bold ">total amount</level>
+               <input type="text" id="totalamount" class="col-md-6" value="&#2547;0" disabled>
+              </div>
+              <div class="col-md-12" >
+                  <level for="totalamount" class="col-md-4 text-uppercase font-weight-bold">remain amount </level>
+               <input type="text" id="totalamount" class="col-md-6" value="&#2547;0" disabled>
+              </div>
+              <div class="col-md-12" >
+                  <level for="totalamount" class="col-md-4 text-uppercase font-weight-bold">much submit</level>
+               <input type="text" id="totalamount" class="col-md-6" value="&#2547;0" disabled>
+              </div>
+               
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="row">
+           
+           
+           
+           
+           
+           <div class="col-md-12">
+                <form action=""  class="form-horizontal">
+                 <table class="table table-striped ">
+    <thead>
+      <tr>
+        <th>Check For Payment</th>
+        <th>Property Name</th>
+        <th>Property Price Remaining</th>
+          <th>Complete Date</th>
+          <th>Now Given Amount</th>
+          
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td ><input type="checkbox" name="property_list[]" value="123" class="property_selection"> </td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+        <td>john@example.com</td>
+        <td><input type="number" name="vehicle1" value="0"  class="form-control"></td>
+      </tr>
+     
+    </tbody>
+  </table>
+           
+            <div class="form-group">
+      <label class="control-label col-sm-2 text-uppercase" for="totalPay">Payment(&#2547;)</label>
+      <div class="col-sm-5">
+        <input type="number" class="form-control" id="totalPay" value="0">
+        
+      </div>
+      <button class="btn btn-success text-uppercase col-md-4  ">Pay now</button>
+    </div>
+            
+                    </form>
+             </div>
+           
+        </div>
+    </div>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+                 <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Bank Name</th>
+        <th>Card Name</th>
+        <th>Given Amount</th>
+        <th>Amount Given Date</th>
+         <th>Transaction No</th>
+          
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+             </div>
+         </div>
+     </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    
+    <script>
+    var enablePayment = function() {
+  var n = $( ".property_selection:checked" ).val();
+  console.log(n);
+};
+enablePayment();
+ 
+$( "input[type=checkbox]" ).on( "click", enablePayment);
+    </script>
+</body>
+</html>
