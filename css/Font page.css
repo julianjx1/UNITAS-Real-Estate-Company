@@ -1,3 +1,98 @@
+/* Effect 13: three circles */
+.cl-effect-13 ul li a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.cl-effect-13 ul li a::before {
+	position: absolute;
+	top:75%;
+	left: 50%;
+	color: transparent;
+	content: '.';
+	text-shadow: 0 0 transparent;
+	font-size:2em;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.cl-effect-13 ul li a:hover::before,
+.cl-effect-13 ul li a:focus::before,ul.nav.navbar-nav li.active a::before{
+	color: #fff;
+	text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+/*-- nav --*/
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+    padding: 2em 0 0;
+}
+.navbar-brand {
+    height: 50px;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 45px;
+	
+	font-weight:700;
+	font-family: 'Megrim', cursive;
+}
+.navbar-brand span {
+    color: #337AB7;
+    display: inline-block;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color:#fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color:#337AB7;
+    background: none;
+}
+.navbar-nav > li > a {
+	padding:14px 30px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.navbar-default .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-collapse {
+    padding: 0;
+    border-top: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-right {
+    float: none !important;
+    margin-right: 0;
+    margin-left: 0em;
+}
+.navbar-nav {
+	margin:0 0 0 8em;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#337AB7;
+}
+.nav > li > a,.agile_short_dropdown li a {
+	font-family: 'Varela Round', sans-serif;
+}
+.w3_agile_login{
+	float:right;
+}
+.w3_agile_login a i {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
 .information{
     margin-top: 20%;
     margin-left: 30%;
@@ -263,8 +358,8 @@
     
     border-radius: 5px;
     box-shadow: 1px 1px 12px white;
-    width: 70%;
-    height: 120px;
+    width: 90%;
+    height: 220px;
     
 }
 .search > level{
@@ -287,8 +382,18 @@
     padding: 5px;
     cursor: pointer;
 }
-
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 400px){
+    #logo{
+        font-size: 18px;
+    }
+    .nav-font > li > a{
+        font-size: 12px;
+    }
+    #nav > div >  button{
+        margin-left: 95%;
+    }
+}
+@media screen and (min-width: 770px){
     .search > level{
    color: aliceblue;
     font-size: 15px;
@@ -306,14 +411,14 @@
        
     }
     #logo{
-        font-size: 25px;
+        font-size: 18px;
     }
     .nav-font > li > a{
-        font-size: 10px;
+        font-size: 12px;
     }
     
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1200px){
     .search > level{
    color: aliceblue;
     font-size: 20px;
@@ -324,10 +429,10 @@
     margin-left: 20%;
     }
     #logo{
-        font-size: 30px;
+        font-size: 25px;
     }
     .nav-font > li > a{
-        font-size: 15px;
+        font-size: 12px;
     }
    
     
@@ -335,7 +440,7 @@
 
 
     
-@media screen and (min-width: 1601px){
+@media screen and (min-width: 1600px){
     .search > level{
    color: aliceblue;
     font-size: 30px;
@@ -347,7 +452,7 @@
     
 }
     #logo{
-        font-size: 40px;
+        font-size: 35px;
     }
     
     
@@ -406,3 +511,9 @@
 .vision-mision-color{
     background-color: azure
 }
+.header-background{
+    background-color: rgba(0,0,0,.4);
+    height: 120px;
+    width: 100%;
+}
+
