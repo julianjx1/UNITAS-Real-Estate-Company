@@ -91,10 +91,10 @@
             <div class="row">
                 <div class="col-md-12" id="top-menu-background" ></div>
                 <div class="col-md-3 " style="padding:15px 0px 0px 50px; position: absolute;">
-                    <h1 id="logo"><a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
+                    <h1 id="logo"><a class="navbar-brand " href="Front%20page.php" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a></h1>
                 </div>
 
-                <div class="col-md-8" style="position:absolute;margin-left: 20%;"  >
+                <div class="col-md-9" style="position:absolute;margin-left: 20%;"  >
                     <nav class="navbar navbar-default " id="nav">
                         <div class="navbar-header navbar-left">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -184,52 +184,12 @@
  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
           
             <script>
-
-
-
-                $(window).on('scroll', function () {
-                    $a = $(window).scrollTop();
-
-
-                    if ($a > 250)
-                    {
-                        $("#top-menu-background").css('height', '50px');
-
-                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"></span>real estate ltd.<i class="fas fa-building"></i></a>');
-                        $("#logo").css({'font-size': '18px'});
-                        $(".nav-font > li > a,#login").css({
-                            'margin-top': '-25px'});
-                        $(".nav-font > li > ").css({
-                            'margin-top': '-25px'});
-                    } else if ($a > 0)
-                    {
-                        $("#top-menu-background").css('height', '100px');
-                        $("#logo").html('<a class="navbar-brand " href="Front%20page.html" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a>');
-
-                        $("#logo").css('font-size', '20px');
-                        $(".nav-font > li > a,#login").css({
-                            'font-size': '10px', 'margin-top': '0px'});
-
-                    } else
-                    {
-                        $("#top-menu-background").css('height', '120px');
-                        $("#logo").css('font-size', '25px');
-                        $(".nav-font > li > a,#login").css(
-                                {'font-size': '15px', 'margin-top': '0px'});
-
-                    }
-                   
-                     
-                   
-                    
-
-                });
-                
-                 $(document).ready(function(){
+                var Filename;
+                $(document).ready(function(){
                      var file_host = $(location).attr('href');
                      var hostname= file_host.split('#').pop();
                         var file_path = $(location).attr('pathname');
-                    var Filename= file_path.split('/').pop();
+                     Filename= file_path.split('/').pop();
                     if(hostname == "aboutus"){
                         $("#nav li[name=aboutus]").addClass("active");
                          $("#nav li[name=home]").removeClass();
@@ -238,9 +198,199 @@
                             {
                              
                                  $("#nav li[name=home]").addClass("active");
+                                
+                                
                             }
                      
-                    })
+                    });
+
+                $(window).on('scroll', function () {
+                    $a = $(window).scrollTop();
+                    
+                    function removeActiveClass(){
+                        $("#nav li[name=home]").removeClass("active");
+                        $("#nav li[name=aboutus]").removeClass("active");
+                        $("#nav li[name=properties]").removeClass("active");
+                        $("#nav li[name=team]").removeClass("active");
+                        $("#nav li[name=gallery]").removeClass("active");
+                        $("#nav li[name=contact]").removeClass("active");
+                    };
+                    if(Filename=="Front%20page.php")
+                            {
+                                
+                               
+                                if($a >= 0)
+                                {
+                                    removeActiveClass();
+                                    $("#nav li[name=home]").addClass("active");
+                                };
+                                if($a > 600)                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=aboutus]").addClass("active");
+                                       } ;
+                                if($a > 1800 && $('#aboutSeeMore').html() == "See More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=team]").addClass("active");
+                                       } ;
+                                
+                                 if($a > 2400 && $('#aboutSeeMore').html() == "Hide More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=team]").addClass("active");
+                                       } ;   
+                                if($a > 3900 && $('#aboutSeeMore').html() == "See More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=properties]").addClass("active");
+                                       } ;
+                                if($a > 4500 && $('#aboutSeeMore').html() == "Hide More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=properties]").addClass("active");
+                                       } ;
+                                    if($a > 4500 && $('#aboutSeeMore').html() == "See More" && $('#land-more').html() == "see more")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=gallery]").addClass("active");
+                                       }; 
+                                if($a > 5300 && $('#aboutSeeMore').html() == "Hide More" && $('#land-more').html() == "see more")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=gallery]").addClass("active");
+                                        
+                                       };
+                                 if($a > 5200 && $('#aboutSeeMore').html() == "See More" && $('#land-more').html() == "Hide More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=gallery]").addClass("active");
+                                       } ;
+                                if($a > 5900 && $('#aboutSeeMore').html() == "Hide More" && $('#land-more').html() == "Hide More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=gallery]").addClass("active");
+                                       } ;
+                                  if($a > 5300 && $('#aboutSeeMore').html() == "See More" && $('#land-more').html() == "see more")                                      
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=contact]").addClass("active");
+                                           
+                                       } ;   
+                                  if($a > 6200 && $('#aboutSeeMore').html() == "Hide More" && $('#land-more').html() == "see more")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=contact]").addClass("active");
+                                           
+                                       } ;    
+                                       
+                                if($a > 6300 && $('#aboutSeeMore').html() == "See More" && $('#land-more').html() == "Hide More")                                  
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=contact]").addClass("active");
+                                           
+                                       } ;    
+                                if($a > 6900 && $('#aboutSeeMore').html() == "Hide More" && $('#land-more').html() == "Hide More")                                    
+                                       {
+                                           removeActiveClass();
+                                           $("#nav li[name=contact]").addClass("active");
+                                           
+                                       } ;
+                                
+                                
+                            };
+                  
+                    if ($a > 250)
+                    {
+                        $("#top-menu-background").css('height', '50px');
+
+                        $("#logo").html('<a class="navbar-brand " href="Front%20page.php" style="color: white"><span>unitas </span> <span style="color: white"></span>real estate ltd.<i class="fas fa-building"></i></a>');
+                        $("#logo").css({'font-size': '18px'});
+                        $(".nav-font > li > a,#login,#signinComplete").css({
+                            'margin-top': '-25px'});
+                        $(".nav-font > li > ").css({
+                            'margin-top': '-25px'});
+                        
+                        $("#signinComplete").css({
+                           'font-size': '12px', 'margin-top': '10px'});
+                        
+                        
+                        
+                    } else if ($a > 0)
+                    {
+                         $("#top-menu-background").css('height', '100px');
+                        $("#logo").html('<a class="navbar-brand " href="Front%20page.php" style="color: white"><span>unitas </span> <span style="color: white"><i class="fas fa-building"></i></span><br>real estate ltd.</a>');
+                         if( $(window).width() > 1600){
+                       
+
+                        $("#logo").css('font-size', '25px');
+                        $(".nav-font > li > a,#login").css({
+                            'font-size': '10px', 'margin-top': '0px'});
+                        
+                        $("#signinComplete").css({
+                           'font-size': '10px', 'margin-top': '32px'});
+                             
+                         $(".navbar-nav > li > a").css({
+	                           'padding':'14px 30px 0'
+                        } );
+
+                         }
+                        
+                          if($(window).width() > 1200 && $(window).width() < 1600)
+                        {
+                            
+                        $("#logo").css('font-size', '20px');
+                        $(".nav-font > li > a,#login").css(
+                                {'font-size': '12px', 'margin-top': '0px'});
+                        $("#signinComplete").css({
+                            'font-size': '12px','margin-top': '30px'});
+                            
+                            $(".navbar-nav > li > a").css({
+	                           'padding':'14px 20px 0'
+                        } );
+
+                    }
+
+                    } else
+                    {
+                        $("#top-menu-background").css('height', '120px');
+                         $(".nav-font > li > a,#login").css(
+                                {'font-size': '15px', 'margin-top': '0px'});
+                         $("#signinComplete").css({
+                            'font-size': '15px','margin-top': '26px'});
+                        if( $(window).width() > 1600)
+                        {
+                        
+                        $("#logo").css('font-size', '30px');
+                       
+                       
+                            
+                         $(".navbar-nav > li > a").css({
+	                           'padding':'14px 30px 0'
+                        } );
+
+                        };
+                        
+                        if($(window).width() > 1200 && $(window).width() < 1600)
+                        {
+                            
+                        $("#logo").css('font-size', '25px');
+                       
+                       
+                            
+                            $(".navbar-nav > li > a").css({
+	                           'padding':'14px 20px 0'
+                        } );
+
+                    }
+                   
+                     
+                   
+                    
+
+                }});
+                
+                 
              
 
             </script>

@@ -876,7 +876,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div></div>                      
 
                                     </div>
@@ -891,7 +891,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -906,7 +906,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -921,7 +921,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -937,7 +937,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -951,7 +951,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                               
                                             </div>
                                         </div>                      
 
@@ -966,7 +966,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -981,7 +981,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 
@@ -996,7 +996,7 @@
                                             <h3>lorem</h3>
                                             <div class = "row" align = "center">
                                                 <button class="btn btn-primary"data-toggle="modal" data-target="#propertyModal">view</button>
-                                                <button class="btn btn-primary">edit</button>
+                                                
                                             </div>
                                         </div>                      
 

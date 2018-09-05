@@ -19,11 +19,10 @@
         <link rel="stylesheet" href="../css/Person%20Information.css" type="text/css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
         
-        
         <style>
             
             #search_result_title{
-                margin-top: 100px;
+                margin-top: 11%;
                 border-bottom: 1px solid black
             }
         </style>
@@ -106,13 +105,11 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        
-        
-        
+
         
         
         <div class="container img-setup" id="search_result">
-            <div class="row">
+            <div class="row resultRow">
                            <div class="col-md-12 text-center" id="search_result_title">
                                <h1>Search Result</h1>
                            </div>
@@ -185,25 +182,171 @@
     
                 
                            
-                        </div>   
-                           
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <img src="http://media.mondinion.com/image.php?photoname=hash108/1010540-1.jpg&width=600&height=450" alt="" class="img-fluid">
-                                    <div class="card-img-overlay  gallary"></div>
-                                    <div class="gallary-info">
-                                        <h3>Uttora</h3>
-                                        <div class = "row" align = "center">
-                                            <button class="btn btn-primary" data-toggle="modal" data-target="#propertyModal">view</button>
-                                            <button class="btn btn-primary">edit</button>
-                                        </div>
-                                    </div>                      
+                        <?php      
+        include("connection.php");
+$size = $_GET['property_size'];
+if($_GET['property_type']=="land")
+     $size = "shatangsho";
+if($size=="sqreft")
+     $size = "width";
+if($size == "bigha")
+{
+    $minimum_size = $_GET['minimum_size'] * 33;
+    $maximum_size = $_GET['maximum_size'] * 33;
+}
+else if($size == "acor")
+{
+    $minimum_size = $_GET['minimum_size'] * 100;
+    $maximum_size = $_GET['maximum_size'] * 100;
+}
+else
+    {
+    $minimum_size = $_GET['minimum_size'] ;
+    $maximum_size = $_GET['maximum_size'] ;
+}
+        $sql = "SELECT * FROM ".$_GET['property_type']." WHERE ".$size." BETWEEN '".$minimum_size."' AND '".$maximum_size."'";
+if($_GET['property_type']=="land")
+    $property_amount = "amount_per_shatangsho";
+else if($_GET['property_type']=="commercial")
+{
+    if($size=="no_of_floor")
+    $property_amount="price_per_floor";
+    else
+        $property_amount="price_per_unit";
+}
+else
+    $property_amount = "price";
+     
+$sql.=" AND ".$property_amount." BETWEEN '".$_GET['minimum_value']."' AND '".$_GET['maximum_value']."'";
+       
+$location = $_GET['location'];
+$area = $_GET['area'];
 
-                                </div>
-                            </div> 
-                       </div>
-                   </div>
+$result = mysqli_query($db, $sql);
+echo '</div><div class="col-md-12"><h1 id="resultfound">'.mysqli_num_rows($result).' result has found</h1>
+                         </div>';
+                               
+
+if (mysqli_num_rows($result) > 0) {
+    // output data of each row
     
+    while($row = mysqli_fetch_assoc($result)) {
+        
+        $sql1="SELECT * FROM property_address WHERE id = '".$row['id']."'";
+        if($location != "all")
+            $sql1.=" AND district='".$location."'";
+        if($area != "all")
+            $sql1.=" AND area='".$area."'";
+        
+        $result1 = mysqli_query($db, $sql1);
+
+        if (mysqli_num_rows($result1) > 0) {
+            // output data of each row
+        while($row1 = mysqli_fetch_assoc($result1)) {
+            
+                  $sql2="SELECT name FROM property WHERE id = '".$row['id']."'"; 
+            $result2 = mysqli_query($db, $sql2);
+
+        if (mysqli_num_rows($result2) > 0) {
+            // output data of each row
+        while($row2 = mysqli_fetch_assoc($result2)) {
+             $property_name = $row2['name'];
+                     
+        
+            }
+        }
+           
+               $road_no =  $row1['road_no.'];
+                $section = $row1['section'];
+                $area = $row1['area'];
+                $district = $row1['district'];
+                $map = $row1['map_location'];
+                         
+        
+            }
+        }  
+        
+        if($getInput->property_type == "land")
+        {
+            array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                       'shatangsho' => $row['shatangsho'],
+                                        'amount_per_shatangsho' => $row['amount_per_shatangsho'],
+                                        'picture' => $row['picture']));
+            
+        }
+        else if($getInput->property_type == "commercial")
+        {
+            
+            
+            
+            if($size == "no_of_floor")
+            {
+                 array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'no_of_floor' => $row['no_of_floor'],
+                                            'price_per_floor' => $row['price_per_floor'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+           
+            else
+            {
+                array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'no_of_units_per_floor' => $row['no_of_units_per_floor'],
+                                            'price_per_unit' => $row['price_per_unit'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+                
+        }
+        else
+        {
+                array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'width' => $row['width'],
+                                        'height' => $row['height'],
+                                         'no_of_rooms'=>$row['no_of_rooms'],
+                                         'no_of_bath'=>$row['no_of_bath'],
+                                         'no_of_yeird'=>$row['no_of_yeird'],
+                                            'price' => $row['price'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+             
+    }
+}
+
+
+    
+?>
+                            
+                       </div>
+                       
+                       
+                   </div>
+        </div>
                        
                         
                         
@@ -243,6 +386,11 @@
            
 
  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+         <script src="../js2/Search.js">
+                            
+                
+
+            </script>
          
            <script>
         function searchResult()
@@ -256,17 +404,81 @@ obj = { "property_type": $("select[name=property_type]").find(":selected").val()
         "minimum_price": $("input[name=minimum_price]").val(),
        "maximum_price":$("input[name=maximum_price]").val()};
 dbParam = JSON.stringify(obj);
+var property_type =$("select[name=property_type]").find(":selected").val();
+var property_size = $("select[name=property_size]").find(":selected").val();
 xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      // var callback = JSON.parse(this.responseText);
-        console.log(this.responseText);
-       /* console.log(callback.id);
+      var callback = JSON.parse(this.responseText);
+        //console.log(this.responseText);
+        $('#resultfound').html(callback.length + " result has found");
+        
        for (x in callback)
             {
-                console.log(callback[x].id);
+                
+               var createCard = '<div class="col-md-3 resultDiv"><div class="card"> <img src=../images/'+property_type+'/'+callback[x].picture+' alt="" class="img-fluid"><div class="card-img-overlay  gallary"></div><div class="gallary-info"><h3>&#2547;';
+                if(property_type=="land")
+               {
+                 var price ;
+                   if(property_size == "acor")
+                   price = callback[x].amount_per_shatangsho * 100 + " per Acor";
+                   else if(property_size == "bigha")
+                       price = callback[x].amount_per_shatangsho * 33+ " per Bigha";
+                   else
+                       price = callback[x].amount_per_shatangsho+ " per Shatangsho";
+                   createCard += price;
+               }
+               else if(property_type=="commercial")
+               {
+                 var price ;
+                   if(property_size == "no_of_floor")
+                   price = callback[x].price_per_floor  + " per Floor";
+                   else 
+                       price = callback[x].price_per_unit + " per unit";
+                  
+                   createCard += price;
+               }
+                else
+                    createCard += callback[x].price;
+                      
+                    
+                
+                    createCard+='</h3>';
+                createCard+='<h3 id="property_name" value="'+callback[x].id+'"> Name: '+ callback[x].name +'</h3>';
+                 createCard+='<div class = "row" ><button class="btn btn-primary pg" name="view" data-toggle="modal" data-target="#propertyModal">view</button></div>';
+               
+                var quantity = 'Available: ' ;
+                 if(property_type=="land")
+               {
+                 
+                   if(property_size == "acor")
+                  quantity +=  callback[x].shatangsho / 100 + " Acor";
+                   else if(property_size == "bigha")
+                      quantity += callback[x].shatangsho / 33 + " Bigha";
+                   else
+                        quantity += callback[x].shatangsho+ " Shatangsho";
+                   
+               }
+             if(property_type=="commercial")
+               {
+                
+                   if(property_size == "no_of_floor")
+                   quantity +=callback[x].no_of_floor  + "  floor";
+                   else 
+                      quantity +=callback[x].no_of_units_per_floor + "  unit per floor";
+                  
+                   
+               }
+                else
+                   quantity = "";
+                if(quantity!="")
+               createCard+='<h5> '+ quantity + '</h5><br>';
+                createCard+='<h5> Location:'+ callback[x].area+','+callback[x].district+ '</h5>'; 
+               createCard+='</div></div></div>'; 
+               // console.log(callback[x].id);
+                $('.resultRow').append(createCard);
             }
-            */
+            
     }
     
 };
@@ -276,17 +488,22 @@ xmlhttp.send();
                };
                
                $(".click_property").focusout(function(){
+                   
+                   if($('.resultRow > div').hasClass('resultDiv'))
+                       $('.resultDiv').remove();
                     searchResult();
                    
-               })
+               });
+               $('.card').click(
+               function(){
+                   console.log("yes");
+               });
+               
+           
                                        
         
         </script>
-            <script src="../js2/Search.js">
-                            
-                
-
-            </script>
+           
             
 
             

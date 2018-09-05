@@ -29,18 +29,41 @@ include('connection.php');
             .font-weight-bold{
                 font-weight: bold;
             }
+            #amount-distribution{
+                margin-top: 11%;
+            }
             #amount-distribution > div
             {
-                margin-top: 5px;
+                margin-top: 6%;
             }
-            #totalAmountDiv > level,#totalAmountDiv > input,.form-horizontal
-            {
-                margin-top: 100px;
-            }
+        
+           
             
             #bank,#card,#mobile_banking{
                 display: none;
             }
+             #successful{
+                margin-left: 49%;
+                border-radius: 5px;
+                
+                z-index: 1;
+                position: absolute;
+                background-color: yellowgreen;
+                color: white;
+                width: auto;
+            }
+            @media screen and (min-width: 1200px){
+            #successful{
+                margin-top: 10%;
+                }
+            }
+             @media screen and (min-width: 1600px){
+            #successful{
+                margin-top: 7%;
+                }
+            }
+            
+            
             
     </style>
 </head>
@@ -418,7 +441,7 @@ if (mysqli_num_rows($result1) > 0) {
      
      <?php
         
-         $sql = "SELECT * FROM user_banking WHERE user_id='".$_SESSION['id']."'";
+         $sql = "SELECT * FROM user_banking WHERE user_id='".$_SESSION['id']."' ORDER BY amount_given_date DESC";
 $result = mysqli_query($db, $sql);
 
 if (mysqli_num_rows($result) > 0) {
@@ -546,7 +569,8 @@ if (mysqli_num_rows($result1) > 0) {
                $("#mobile_banking").css("display","block");
        });
         
-        
+         
+      
         
        
                             

@@ -22,9 +22,10 @@ else
     $minimum_size = $getInput->minimum_size ;
     $maximum_size = $getInput->maximum_size ;
 }
+$callback=array();
 $sql = "SELECT * FROM ".$getInput->property_type." WHERE ".$size." BETWEEN '".$minimum_size."' AND '".$maximum_size."'";
 if($getInput->property_type=="land")
-    $property_amount = "amount_per_acor";
+    $property_amount = "amount_per_shatangsho";
 else if($getInput->property_type=="commercial")
 {
     if($getInput->property_size=="no_of_floor")
@@ -57,64 +58,103 @@ if (mysqli_num_rows($result) > 0) {
         if (mysqli_num_rows($result1) > 0) {
             // output data of each row
         while($row1 = mysqli_fetch_assoc($result1)) {
-           global $callback1 = array('id' => $row['id']);
-             /*      $sql2="SELECT name FROM property WHERE id = '".$row['id']."'"; 
+            
+                  $sql2="SELECT name FROM property WHERE id = '".$row['id']."'"; 
             $result2 = mysqli_query($db, $sql2);
 
         if (mysqli_num_rows($result2) > 0) {
             // output data of each row
         while($row2 = mysqli_fetch_assoc($result2)) {
-            $callback .= ',"name" : "'.$row2['name'] .'"';
+             $property_name = $row2['name'];
                      
         
             }
         }
            
-             $callback .= ',"road_no." : '.$row1['road_no.']
-                         .',"section" : "'.$row1['section'].'"'
-                         .',"area" : "'.$row1['area'].'"'
-                         .',"district" : "'.$row1['district'].'"'
-                         .",'map' : '".$row1['map_location']."'";  */
+               $road_no =  $row1['road_no.'];
+                $section = $row1['section'];
+                $area = $row1['area'];
+                $district = $row1['district'];
+                $map = $row1['map_location'];
+                         
         
             }
         }  
-        /*
+        
         if($getInput->property_type == "land")
         {
-            $callback .= ',"shatangsho" :'.$row['shatangsho']
-                        .',"amount_per_shatangsho" :'.$row['amount_per_shatangsho']
-                        .',"picture" : "'.$row['picture'].'"';
+            array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                       'shatangsho' => $row['shatangsho'],
+                                        'amount_per_shatangsho' => $row['amount_per_shatangsho'],
+                                        'picture' => $row['picture']));
+            
         }
         else if($getInput->property_type == "commercial")
         {
+            
+            
+            
             if($size == "no_of_floor")
-            $callback .= ',"no_of_floor" :'.$row['no_of_floor']
-                        .',"price_per_floor" :'.$row['price_per_floor']
-                        .',"complete_date" : "'.$row['complete_date'].'"'
-                        .',"picture" : "'.$row['picture'].'"';
+            {
+                 array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'no_of_floor' => $row['no_of_floor'],
+                                            'price_per_floor' => $row['price_per_floor'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+           
             else
-                $callback .= ',"no_of_units_per_floor" :'.$row['no_of_units_per_floor']
-                        .',"price_per_unit" :'.$row['price_per_unit']
-                        .',"complete_date" : "'.$row['complete_date'].'"'
-                        .',"picture" : "'.$row['picture'].'"';
+            {
+                array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'no_of_units_per_floor' => $row['no_of_units_per_floor'],
+                                            'price_per_unit' => $row['price_per_unit'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+                
         }
         else
         {
-             $callback .= ',"width" : '.$row['width']
-                         .',"height" : '.$row['height']
-                         .',"no_of_rooms" : '.$row['no_of_rooms']
-                         .',"no_of_bath" : '.$row['no_of_bath']
-                         .',"no_of_yeird" : '.$row['no_of_yeird']
-                         .',"price" : '.$row['price']
-                         .',"complete_date" : "'.$row['complete_date'].'"'
-                         .',"picture" : "'.$row['picture'].'"';
-        }
-        $callback .= '}'; */
+                array_push($callback,array('id' => $row['id'],
+                                       'name' => $property_name,
+                                       'road_no' => $road_no,
+                                       'section' => $section,
+                                       'area' => $area,
+                                       'district' => $district,
+                                       'map' => $map,
+                                        'width' => $row['width'],
+                                        'height' => $row['height'],
+                                         'no_of_rooms'=>$row['no_of_rooms'],
+                                         'no_of_bath'=>$row['no_of_bath'],
+                                         'no_of_yeird'=>$row['no_of_yeird'],
+                                            'price' => $row['price'],
+                                            'complete_date'=> $row['complete_date'],
+                                            'picture'=>$row['picture']));
+            }
+             
     }
-} 
-/*else
-    $callback = "";
-*/
-echo json_encode($callback1);
+}
+
+
+
+echo json_encode($callback);
 
 ?>
